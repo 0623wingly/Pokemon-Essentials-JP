@@ -1,0 +1,130 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+
+#-------------------------------
+[NORMAL]
+Name = ノーマル
+IconPosition = 0
+Weaknesses = FIGHTING
+Immunities = GHOST
+#-------------------------------
+[FIGHTING]
+Name = かくとう
+IconPosition = 1
+Weaknesses = FLYING,PSYCHIC,FAIRY
+Resistances = ROCK,BUG,DARK
+#-------------------------------
+[POISON]
+Name = どく
+IconPosition = 2
+Weaknesses = GROUND,PSYCHIC
+Resistances = FIGHTING,POISON,BUG,GRASS,FAIRY
+#-------------------------------
+[GROUND]
+Name = じめん
+IconPosition = 3
+Weaknesses = WATER,GRASS,ICE
+Resistances = POISON,ROCK
+Immunities = ELECTRIC
+#-------------------------------
+[FLYING]
+Name = ひこう
+IconPosition = 4
+Weaknesses = ROCK,ELECTRIC,ICE
+Resistances = FIGHTING,BUG,GRASS
+Immunities = GROUND
+#-------------------------------
+[BUG]
+Name = むし
+IconPosition = 5
+Weaknesses = FLYING,ROCK,FIRE
+Resistances = FIGHTING,GROUND,GRASS
+#-------------------------------
+[ROCK]
+Name = いわ
+IconPosition = 6
+Weaknesses = FIGHTING,GROUND,STEEL,WATER,GRASS
+Resistances = NORMAL,FLYING,POISON,FIRE
+#-------------------------------
+[GHOST]
+Name = ゴースト
+IconPosition = 7
+Weaknesses = GHOST,DARK
+Resistances = POISON,BUG
+Immunities = NORMAL,FIGHTING
+#-------------------------------
+[QMARKS]
+Name = ???
+IconPosition = 8
+IsPseudoType = true
+#-------------------------------
+[STEEL]
+Name = はがね
+IconPosition = 9
+Weaknesses = FIGHTING,GROUND,FIRE
+Resistances = NORMAL,FLYING,ROCK,BUG,STEEL,GRASS,PSYCHIC,ICE,DRAGON,FAIRY
+Immunities = POISON
+#-------------------------------
+[FIRE]
+Name = ほのお
+IconPosition = 10
+IsSpecialType = true
+Weaknesses = GROUND,ROCK,WATER
+Resistances = BUG,STEEL,FIRE,GRASS,ICE,FAIRY
+#-------------------------------
+[WATER]
+Name = みず
+IconPosition = 11
+IsSpecialType = true
+Weaknesses = GRASS,ELECTRIC
+Resistances = STEEL,FIRE,WATER,ICE
+#-------------------------------
+[ELECTRIC]
+Name = でんき
+IconPosition = 12
+IsSpecialType = true
+Weaknesses = GROUND
+Resistances = FLYING,STEEL,ELECTRIC
+#-------------------------------
+[GRASS]
+Name = くさ
+IconPosition = 13
+IsSpecialType = true
+Weaknesses = FLYING,POISON,BUG,FIRE,ICE
+Resistances = GROUND,WATER,GRASS,ELECTRIC
+#-------------------------------
+[ICE]
+Name = こおり
+IconPosition = 14
+IsSpecialType = true
+Weaknesses = FIGHTING,ROCK,STEEL,FIRE
+Resistances = ICE
+#-------------------------------
+[PSYCHIC]
+Name = エスパー
+IconPosition = 15
+IsSpecialType = true
+Weaknesses = BUG,GHOST,DARK
+Resistances = FIGHTING,PSYCHIC
+#-------------------------------
+[DRAGON]
+Name = ドラゴン
+IconPosition = 16
+IsSpecialType = true
+Weaknesses = ICE,DRAGON,FAIRY
+Resistances = FIRE,WATER,GRASS,ELECTRIC
+#-------------------------------
+[DARK]
+Name = あく
+IconPosition = 17
+IsSpecialType = true
+Weaknesses = FIGHTING,BUG,FAIRY
+Resistances = GHOST,DARK
+Immunities = PSYCHIC
+#-------------------------------
+[FAIRY]
+Name = フェアリー
+IconPosition = 18
+IsSpecialType = true
+Weaknesses = POISON,STEEL
+Resistances = FIGHTING,BUG,DARK
+Immunities = DRAGON

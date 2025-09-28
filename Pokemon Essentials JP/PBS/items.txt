@@ -1,0 +1,6137 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[REPEL]
+Name = むしよけスプレー
+NamePlural = むしよけスプレー
+Pocket = 1
+Price = 400
+FieldUse = Direct
+Flags = Repel,Fling_30
+Description = つかうと すこしの あいだ よわい やせいの ポケモンが まったく でて こなくなる。
+#-------------------------------
+[SUPERREPEL]
+Name = シルバースプレー
+NamePlural = シルバースプレー
+Pocket = 1
+Price = 700
+FieldUse = Direct
+Flags = Repel,Fling_30
+Description = よわい やせいの ポケモンが まったく でて こなくなる。 むしよけスプレーより ながく きく。
+#-------------------------------
+[MAXREPEL]
+Name = ゴールドスプレー
+NamePlural = ゴールドスプレー
+Pocket = 1
+Price = 900
+FieldUse = Direct
+Flags = Repel,Fling_30
+Description = よわい やせいの ポケモンが まったく でて こなくなる。 シルバースプレーより ながく きく。
+#-------------------------------
+[BLACKFLUTE]
+Name = くろいビードロ
+NamePlural = くろいビードロ
+Pocket = 1
+Price = 20
+FieldUse = Direct
+Flags = Fling_30
+Consumable = false
+Description = くろいガラスで できた ふえ。 つかった ばしょで つよいポケモンと そうぐう しやすくなる。
+#-------------------------------
+[WHITEFLUTE]
+Name = しろいビードロ
+NamePlural = しろいビードロ
+Pocket = 1
+Price = 20
+FieldUse = Direct
+Flags = Fling_30
+Consumable = false
+Description = しろいガラスで できた ふえ。 つかった ばしょで よわいポケモンと そうぐう しやすくなる。
+#-------------------------------
+[HONEY]
+Name = あまいミツ
+NamePlural = あまいミツ
+PortionName = jar of Honey
+PortionNamePlural = jars of Honey
+Pocket = 1
+Price = 450
+FieldUse = Direct
+Flags = Fling_30
+Description = ポケモンが あつめた あまい においが する ミツ。 ショップで やすく うれる。
+#-------------------------------
+[REDSHARD]
+Name = あかいかけら
+NamePlural = あかいかけら
+Pocket = 1
+Price = 1000
+Flags = Fling_30
+Description = あかい ちいさな かけら。むかしに つくられた なにかの どうぐの いちぶ らしい。
+#-------------------------------
+[YELLOWSHARD]
+Name = きいろいかけら
+NamePlural = きいろいかけら
+Pocket = 1
+Price = 1000
+Flags = Fling_30
+Description = きいろい ちいさな かけら。むかしに つくられた なにかの どうぐの いちぶ らしい。
+#-------------------------------
+[BLUESHARD]
+Name = あおいかけら
+NamePlural = あおいかけら
+Pocket = 1
+Price = 1000
+Flags = Fling_30
+Description = あおい ちいさな かけら。むかしに つくられた なにかの どうぐの いちぶ らしい。
+#-------------------------------
+[GREENSHARD]
+Name = みどりのかけら
+NamePlural = みどりのかけら
+Pocket = 1
+Price = 1000
+Flags = Fling_30
+Description = みどりの ちいさな かけら。むかしに つくられた なにかの どうぐの いちぶ らしい。
+#-------------------------------
+[FIRESTONE]
+Name = ほのおのいし
+NamePlural = ほのおのいし
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = ある とくていの ポケモンを しんかさせる ふしぎな いし。だいだいいろを している。
+#-------------------------------
+[THUNDERSTONE]
+Name = かみなりのいし
+NamePlural = かみなりのいし
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = ある とくていの ポケモンを しんかさせる ふしぎな いし。 いなずまの もようが ある。
+#-------------------------------
+[WATERSTONE]
+Name = みずのいし
+NamePlural = みずのいし
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = ある とくていの ポケモンを しんかさせる ふしぎな いし。すんだ みずいろを している。
+#-------------------------------
+[LEAFSTONE]
+Name = リーフのいし
+NamePlural = リーフのいし
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = ある とくていの ポケモンを しんかさせる ふしぎな いし。はっぱの もようが ある。
+#-------------------------------
+[MOONSTONE]
+Name = つきのいし
+NamePlural = つきのいし
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = ある とくていの ポケモンを しんかさせる ふしぎな いし。よぞらのように くろい。
+#-------------------------------
+[SUNSTONE]
+Name = たいようのいし
+NamePlural = たいようのいし
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = ある とくていの ポケモンを しんかさせる ふしぎな いし。 たいようのように あかい。
+#-------------------------------
+[DUSKSTONE]
+Name = やみのいし
+NamePlural = やみのいし
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
+Description = ある とくていの ポケモンを しんかさせる ふしぎな いし。やみのように くらい。
+#-------------------------------
+[DAWNSTONE]
+Name = めざめいし
+NamePlural = めざめいし
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
+Description = ある とくていの ポケモンの しんかさせる ふしぎな いし。ひとみのように まばゆい。
+#-------------------------------
+[SHINYSTONE]
+Name = ひかりのいし
+NamePlural = ひかりのいし
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
+Description = ある とくていの ポケモンを しんかさせる ふしぎな いし。ひかりのように まぶしい。
+#-------------------------------
+[ICESTONE]
+Name = こおりのいし
+NamePlural = こおりのいし
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = ある とくていの ポケモンを しんかさせる ふしぎな いし。ゆきの もようが ある。
+#-------------------------------
+[SWEETAPPLE]
+Name = あまーいりんご
+NamePlural = あまーいりんご
+Pocket = 1
+Price = 2200
+SellPrice = 550
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = ある とくていの ポケモンを しんかさせる ふしぎな りんご。 とにかく あまい。
+#-------------------------------
+[TARTAPPLE]
+Name = すっぱいりんご
+NamePlural = すっぱいりんご
+Pocket = 1
+Price = 2200
+SellPrice = 550
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = ある とくていの ポケモンを しんかさせる ふしぎな りんご。 とにかく すっぱい。
+#-------------------------------
+[CRACKEDPOT]
+Name = われたポット
+NamePlural = われたポット
+Pocket = 1
+Price = 1500
+SellPrice = 400
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
+Description = ある とくていの ポケモンを しんかさせる ふしぎな ポット。 われているが おちゃは おいしくなる。
+#-------------------------------
+[CHIPPEDPOT]
+Name = かけたポット
+NamePlural = かけたポット
+Pocket = 1
+Price = 1500
+SellPrice = 9500
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
+Description = ある とくていの ポケモンを しんかさせる ふしぎな ポット。 かけているが おちゃは おいしくなる。
+#-------------------------------
+[GALARICACUFF]
+Name = ガラナツブレス
+NamePlural = ガラナツブレス
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = ガラナツのえだを あみこんだ ブレスレット。 ガラルちほうの ヤドンに つけてあげると よろこぶ。
+#-------------------------------
+[GALARICAWREATH]
+Name = ガラナツリース
+NamePlural = ガラナツリース
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = ガラナツのえだを あみこんだ かんむり。 ガラルちほうの ヤドンに かぶせてあげると よろこぶ。
+#-------------------------------
+[REDAPRICORN]
+Name = あかぼんぐり
+NamePlural = あかぼんぐり
+Pocket = 1
+Price = 100
+Flags = Apricorn
+Description = あかい ぼんぐり。 つーんと はなにくる においがする。 レベルボールの ざいりょうだ。
+#-------------------------------
+[YELLOWAPRICORN]
+Name = きぼんぐり
+NamePlural = きぼんぐり
+Pocket = 1
+Price = 100
+Flags = Apricorn
+Description = きいろの ぼんぐり。 さわやかな かおりが する。 ムーンボールの ざいりょうだ。
+#-------------------------------
+[BLUEAPRICORN]
+Name = あおぼんぐり
+NamePlural = あおぼんぐり
+Pocket = 1
+Price = 100
+Flags = Apricorn
+Description = あおい ぼんぐり。 すこし あおくさい かおりがする。 ルアーボールの ざいりょうだ。
+#-------------------------------
+[GREENAPRICORN]
+Name = みどぼんぐり
+NamePlural = みどぼんぐり
+Pocket = 1
+Price = 100
+Flags = Apricorn
+Description = みどりの ぼんぐり。 ふしぎと こうばしい かおりがする。 フレンドボールの ざいりょうだ。
+#-------------------------------
+[PINKAPRICORN]
+Name = ももぼんぐり
+NamePlural = ももぼんぐり
+Pocket = 1
+Price = 100
+Flags = Apricorn
+Description = ももいろの ぼんぐり。 あまそうな いい においがする。 ラブラブボールの ざいりょうだ。
+#-------------------------------
+[WHITEAPRICORN]
+Name = しろぼんぐり
+NamePlural = しろぼんぐり
+Pocket = 1
+Price = 100
+Flags = Apricorn
+Description = しろい ぼんぐり。 なんの においも しない。 スピードボールの ざいりょうだ。
+#-------------------------------
+[BLACKAPRICORN]
+Name = くろぼんぐり
+NamePlural = くろぼんぐり
+Pocket = 1
+Price = 100
+Flags = Apricorn
+Description = くろい ぼんぐり。 なんともいえない においがする。 ヘビーボールの ざいりょうだ。
+#-------------------------------
+[HELIXFOSSIL]
+Name = かいのカセキ
+NamePlural = かいのカセキ
+Pocket = 1
+Price = 7000
+Flags = Fossil,Fling_100
+Description = おおむかし うみに すんでいた こだい ポケモンの カセキ。かいがらの いちぶ らしい。
+#-------------------------------
+[DOMEFOSSIL]
+Name = こうらのカセキ
+NamePlural = こうらのカセキ
+Pocket = 1
+Price = 7000
+Flags = Fossil,Fling_100
+Description = おおむかし うみに すんでいた こだい ポケモンの カセキ。こうらの いちぶ らしい。
+#-------------------------------
+[OLDAMBER]
+Name = ひみつのコハク
+NamePlural = ひみつのコハク
+Pocket = 1
+Price = 1000
+Flags = Fossil,Fling_100
+Description = こだい ポケモンの いでんしが とじこめられている コハク。あかみを おびて すけている。
+#-------------------------------
+[ROOTFOSSIL]
+Name = ねっこのカセキ
+NamePlural = ねっこのカセキ
+Pocket = 1
+Price = 7000
+Flags = Fossil,Fling_100
+Description = おおむかし うみに すんでいた こだい ポケモンの カセキ。 ねっこの いちぶ らしい。
+#-------------------------------
+[CLAWFOSSIL]
+Name = ツメのカセキ
+NamePlural = ツメのカセキ
+Pocket = 1
+Price = 7000
+Flags = Fossil,Fling_100
+Description = おおむかし うみに すんでいた こだい ポケモンの カセキ。 ツメの いちぶ らしい。
+#-------------------------------
+[SKULLFOSSIL]
+Name = ずがいのカセキ
+NamePlural = ずがいのカセキ
+Pocket = 1
+Price = 7000
+Flags = Fossil,Fling_100
+Description = おおむかし ちじょうで くらした こだい ポケモンの カセキ。 あたまの いちぶ らしい。
+#-------------------------------
+[ARMORFOSSIL]
+Name = たてのカセキ
+NamePlural = たてのカセキ
+Pocket = 1
+Price = 7000
+Flags = Fossil,Fling_100
+Description = おおむかし ちじょうで くらした こだい ポケモンの カセキ。 えりかざりの いちぶ らしい。
+#-------------------------------
+[COVERFOSSIL]
+Name = ふたのカセキ
+NamePlural = ふたのカセキ
+Pocket = 1
+Price = 7000
+Flags = Fossil,Fling_100
+Description = おおむかし うみに すんでいた こだいポケモンの カセキ。 せなかの いちぶらしい。
+#-------------------------------
+[PLUMEFOSSIL]
+Name = はねのカセキ
+NamePlural = はねのカセキ
+Pocket = 1
+Price = 7000
+Flags = Fossil,Fling_100
+Description = とりポケモンの そせんと いわれる こだい ポケモンの カセキ。 つばさの いちぶ らしい。
+#-------------------------------
+[JAWFOSSIL]
+Name = アゴのカセキ
+NamePlural = アゴのカセキ
+Pocket = 1
+Price = 7000
+Flags = Fossil,Fling_100
+Description = おおむかし ちじょうで くらした こだい ポケモンの カセキ。おおきな アゴの いちぶ らしい。
+#-------------------------------
+[SAILFOSSIL]
+Name = ヒレのカセキ
+NamePlural = ヒレのカセキ
+Pocket = 1
+Price = 7000
+Flags = Fossil,Fling_100
+Description = おおむかし ちじょうで くらした こだい ポケモンの カセキ。くびの ヒレの いちぶ らしい。
+#-------------------------------
+[FOSSILIZEDBIRD]
+Name = カセキのトリ
+NamePlural = カセキのトリ
+Pocket = 1
+Price = 5000
+Flags = Fling_100
+Description = おおむかし そらを とんでいた こだい ポケモンの カセキの いちぶ。 どんな すがた だったのかは なぞ。
+#-------------------------------
+[FOSSILIZEDFISH]
+Name = カセキのサカナ
+NamePlural = カセキのサカナ
+Pocket = 1
+Price = 5000
+Flags = Fling_100
+Description = おおむかし うみに すんでいた こだい ポケモンの カセキの いちぶ。 どんな すがた だったのかは なぞ。
+#-------------------------------
+[FOSSILIZEDDRAKE]
+Name = カセキのリュウ
+NamePlural = カセキのリュウ
+Pocket = 1
+Price = 5000
+Flags = Fling_100
+Description = おおむかし りくに すんでいた こだい ポケモンの カセキの いちぶ。 どんな すがた だったのかは なぞ。
+#-------------------------------
+[FOSSILIZEDDINO]
+Name = カセキのクビナガ
+NamePlural = カセキのクビナガ
+Pocket = 1
+Price = 5000
+Flags = Fling_100
+Description = おおむかし うみに すんでいた こだい ポケモンの カセキの いちぶ。 どんな すがた だったのかは なぞ。
+#-------------------------------
+[PRETTYFEATHER]
+Name = きれいなハネ
+NamePlural = きれいなハネ
+Pocket = 1
+Price = 1000
+Flags = Fling_20
+Description = きれいなだけで なんの こうかもない ごくごく ふつうの ハネ。
+#-------------------------------
+[TINYMUSHROOM]
+Name = ちいさなキノコ
+NamePlural = ちいさなキノコ
+Pocket = 1
+Price = 500
+Flags = Fling_30
+Description = ちいさな めずらしい キノコ。いちぶの マニアの あいだでは けっこう にんきが たかい。
+#-------------------------------
+[BIGMUSHROOM]
+Name = おおきなキノコ
+NamePlural = おおきなキノコ
+Pocket = 1
+Price = 5000
+Flags = Fling_30
+Description = おおきな めずらしい キノコ。いちぶの マニアの あいだでは とても にんきが たかい。
+#-------------------------------
+[BALMMUSHROOM]
+Name = かおるキノコ
+NamePlural = かおるキノコ
+Pocket = 1
+Price = 15000
+Flags = Fling_30
+Description = あたりいったいに いい かおりが ひろがる めずらしい キノコ。 ショップで たかく うれる。
+#-------------------------------
+[PEARL]
+Name = しんじゅ
+NamePlural = しんじゅ
+Pocket = 1
+Price = 2000
+Flags = Fling_30
+Description = きれいな ぎんいろに ひかる すこし ちいさめの しんじゅ。ショップで やすく うれる。
+#-------------------------------
+[BIGPEARL]
+Name = おおきなしんじゅ
+NamePlural = おおきなしんじゅ
+Pocket = 1
+Price = 8000
+Flags = Fling_30
+Description = きれいな ぎんいろに ひかる かなり おおつぶの しんじゅ。ショップで たかく うれる。
+#-------------------------------
+[PEARLSTRING]
+Name = おだんごしんじゅ
+NamePlural = おだんごしんじゅ
+Pocket = 1
+Price = 20000
+Flags = Fling_30
+Description = きれいな ぎんいろに ひかる とても おおつぶの しんじゅ。 ショップで たかく うれる。
+#-------------------------------
+[STARDUST]
+Name = ほしのすな
+NamePlural = ほしのすな
+PortionName = bag of Stardust
+PortionNamePlural = bags of Stardust
+Pocket = 1
+Price = 3000
+Flags = Fling_30
+Description = てざわりが サラサラの あかくて きれいな すな。 ショップで やすく うれる。
+#-------------------------------
+[STARPIECE]
+Name = ほしのかけら
+NamePlural = ほしのかけら
+Pocket = 1
+Price = 12000
+Flags = Fling_30
+Description = キラキラと あかく ひかる きれいな ほうせきの かけら。 ショップで たかく うれる。
+#-------------------------------
+[COMETSHARD]
+Name = すいせいのかけら
+NamePlural = すいせいのかけら
+Pocket = 1
+Price = 25000
+Flags = Fling_30
+Description = すいせいが ちかづいたとき ちひょうに おちた かけら。 ショップで たかく うれる。
+#-------------------------------
+[NUGGET]
+Name = きんのたま
+NamePlural = きんのたま
+Pocket = 1
+Price = 10000
+Flags = Fling_30
+Description = キラキラと きんいろに ひかる じゅんきん せいの たま。ショップで たかく うれる。
+#-------------------------------
+[BIGNUGGET]
+Name = でかいきんのたま
+NamePlural = でかいきんのたま
+Pocket = 1
+Price = 40000
+Flags = Fling_130
+Description = キラキラと きんいろに ひかる じゅんきんせいの おおきな たま。 マニアが たかく かってくれる。
+#-------------------------------
+[HEARTSCALE]
+Name = ハートのウロコ
+NamePlural = ハートのウロコ
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = きれいな ハートの かたちの とても めずらしい ウロコ。 わたすと よろこぶ ひともいる。
+#-------------------------------
+[SLOWPOKETAIL]
+Name = おいしいシッポ
+NamePlural = おいしいシッポ
+Pocket = 1
+Price = 10000
+Description = とても おいしい なにかの しっぽ。 ショップで たかく うれる。
+#-------------------------------
+[RAREBONE]
+Name = きちょうなホネ
+NamePlural = きちょうなホネ
+Pocket = 1
+Price = 5000
+Flags = Fling_100
+Description = ポケモンこうこがくの うえで とても きちょうな ホネ。ショップで たかく うれる。
+#-------------------------------
+[RELICCOPPER]
+Name = こだいのどうか
+NamePlural = こだいのどうか
+PortionName = Relic Copper coin
+PortionNamePlural = Relic Copper coins
+Pocket = 1
+Price = 0
+Flags = Fling_30
+Description = 3000ねんほど むかしの ぶんめいで つかわれた どうか。 マニアが たかく かってくれる。
+#-------------------------------
+[RELICSILVER]
+Name = こだいのぎんか
+NamePlural = こだいのぎんか
+PortionName = Relic Silver coin
+PortionNamePlural = Relic Silver coins
+Pocket = 1
+Price = 0
+Flags = Fling_30
+Description = 3000ねんほど むかしの ぶんめいで つかわれた ぎんか。 マニアが たかく かってくれる。
+#-------------------------------
+[RELICGOLD]
+Name = こだいのきんか
+NamePlural = Relic Golds
+PortionName = Relic Gold coin
+PortionNamePlural = Relic Gold coins
+Pocket = 1
+Price = 60000
+Flags = Fling_30
+Description = 3000ねんほど むかしの ぶんめいで つかわれた きんか。
+#-------------------------------
+[RELICVASE]
+Name = こだいのツボ
+NamePlural = こだいのツボ
+Pocket = 1
+Price = 0
+Flags = Fling_30
+Description = 3000ねんほど むかしの ぶんめいで つくられた ツボ。 マニアが たかく かってくれる。
+#-------------------------------
+[RELICBAND]
+Name = こだいのうでわ
+NamePlural = こだいのうでわ
+Pocket = 1
+Price = 0
+Flags = Fling_30
+Description = 3000ねんほど むかしの ぶんめいで つくられた うでわ。 マニアが たかく かってくれる。
+#-------------------------------
+[RELICSTATUE]
+Name = こだいのせきぞう
+NamePlural = こだいのせきぞう
+
+Pocket = 1
+Price = 0
+Flags = Fling_30
+Description = 3000ねんほど むかしの ぶんめいで つくられた せきぞう。 マニアが たかく かってくれる。
+#-------------------------------
+[RELICCROWN]
+Name = こだいのおうかん
+NamePlural = こだいのおうかん
+Pocket = 1
+Price = 0
+Flags = Fling_30
+Description = 3000ねんほど むかしの ぶんめいで つくられた おうかん。 マニアが たかく かってくれる。
+#-------------------------------
+[GROWTHMULCH]
+Name = すくすくこやし
+NamePlural = すくすくこやし
+PortionName = bag of Growth Mulch
+PortionNamePlural = bags of Growth Mulch
+Pocket = 1
+Price = 200
+Flags = Mulch,Fling_30
+Description = きのみを そだてる ちほうでは、ふかふかのつちに まいて つかう。マニアが たかく かってくれる。
+#-------------------------------
+[DAMPMULCH]
+Name = じめじめこやし
+NamePlural = じめじめこやし
+PortionName = bag of Damp Mulch
+PortionNamePlural = bags of Damp Mulch
+Pocket = 1
+Price = 200
+Flags = Mulch,Fling_30
+Description = きのみを そだてるときの ひりょう。 しかし ホウエンちほうの つちには まるで なじまないので こうかが ない。
+#-------------------------------
+[STABLEMULCH]
+Name = ながながこやし
+NamePlural = ながながこやし
+PortionName = bag of Stable Mulch
+PortionNamePlural = bags of Stable Mulch
+Pocket = 1
+Price = 200
+Flags = Mulch,Fling_30
+Description = きのみを そだてるときの ひりょう。 しかし ホウエンちほうの つちには まるで なじまないので こうかが ない。
+#-------------------------------
+[GOOEYMULCH]
+Name = ねばねばこやし
+NamePlural = ねばねばこやし
+PortionName = bag of Gooey Mulch
+PortionNamePlural = bags of Gooey Mulch
+Pocket = 1
+Price = 200
+Flags = Mulch,Fling_30
+Description = きのみを そだてるときの ひりょう。 しかし ホウエンちほうの つちには まるで なじまないので こうかが ない。
+#-------------------------------
+[SHOALSALT]
+Name = あさせのしお
+NamePlural = あさせのしお
+PortionName = pile of Shoal Salt
+PortionNamePlural = piles of Shoal Salt
+Pocket = 1
+Price = 20
+Flags = Fling_30
+Description = あさせのほらあな という ばしょで みつかる きれいな しお。 マニアが たかく かってくれる。
+#-------------------------------
+[SHOALSHELL]
+Name = あさせのかいがら
+NamePlural = あさせのかいがら
+Pocket = 1
+Price = 20
+Flags = Fling_30
+Description = あさせのほらあな という ばしょで みつかる きれいな かいがら。マニアが たかく かってくれる。
+#-------------------------------
+[ODDKEYSTONE]
+Name = かなめいし
+NamePlural = かなめいし
+Pocket = 1
+Price = 1050
+Flags = Fling_80
+Description = これがないと いしのとうが くずれてしまう だいじないし。 ときどき いしから こえがきこえる。
+#-------------------------------
+[REDNECTAR]
+Name = くれないのミツ	
+NamePlural = くれないのミツ	
+PortionName = jar of Red Nectar
+PortionNamePlural = jars of Red Nectar
+Pocket = 1
+Price = 300
+SellPrice = 75
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = ウラウラのはなぞので てにいれた はなのミツ。 とくていの ポケモンの すがたを かえる。
+#-------------------------------
+[YELLOWNECTAR]
+Name = やまぶきのミツ
+NamePlural = やまぶきのミツ
+PortionName = jar of Yellow Nectar
+PortionNamePlural = jars of Yellow Nectar
+Pocket = 1
+Price = 300
+SellPrice = 75
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = メレメレのはなぞので てにいれた はなのミツ。 とくていの ポケモンの すがたを かえる。
+#-------------------------------
+[PINKNECTAR]
+Name = うすもものミツ
+NamePlural = うすもものミツ
+PortionName = jar of Pink Nectar
+PortionNamePlural = jars of Pink Nectar
+Pocket = 1
+Price = 300
+SellPrice = 75
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = ロイヤルアベニューの かだんで てにいれた はなのミツ。 とくていの ポケモンの すがたを かえる。
+#-------------------------------
+[PURPLENECTAR]
+Name = むらさきのミツ
+NamePlural = むらさきのミツ
+PortionName = jar of Purple Nectar
+PortionNamePlural = jars of Purple Nectar
+Pocket = 1
+Price = 300
+SellPrice = 75
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = ポニのはなぞので てにいれた はなのミツ。 とくていの ポケモンの すがたを かえる。
+#-------------------------------
+[AIRBALLOON]
+Name = ふうせん
+NamePlural = ふうせん
+Pocket = 1
+Price = 15000
+SellPrice = 3750
+BPPrice = 15
+Flags = Fling_10
+Description = ポケモンに もたせると ポケモンが ちゅうに うく。 こうげきを うけると われてしまう。
+#-------------------------------
+[EVIOLITE]
+Name = しんかのきせき
+NamePlural = しんかのきせき
+Pocket = 1
+Price = 50000
+SellPrice = 12500
+BPPrice = 25
+Flags = Fling_40
+Description = しんかの ふしぎな かたまり。もたせると しんかまえ ポケモンの ぼうぎょと とくぼうが あがる。
+#-------------------------------
+[FLOATSTONE]
+Name = かるいし
+NamePlural = かるいし
+Pocket = 1
+Price = 10000
+SellPrice = 2500
+BPPrice = 10
+Flags = Fling_30
+Description = とても かるい いし。もたせると ポケモンの たいじゅうが かるくなる。
+#-------------------------------
+[DESTINYKNOT]
+Name = あかいいと
+NamePlural = あかいいと
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+BPPrice = 10
+Flags = Fling_10
+Description = ほそくて ながい まっかな いと。 もたせると メロメロに なったとき あいても メロメロに できる。
+#-------------------------------
+[ROCKYHELMET]
+Name = ゴツゴツメット
+NamePlural = ゴツゴツメット
+Pocket = 1
+Price = 50000
+SellPrice = 12500
+BPPrice = 25
+Flags = Fling_60
+Description = ポケモンに もたせると だげきわざを うけたとき あいてにも ダメージを あたえる。
+#-------------------------------
+[ASSAULTVEST]
+Name = とつげきチョッキ
+NamePlural = とつげきチョッキ
+Pocket = 1
+Price = 50000
+SellPrice = 12500
+BPPrice = 25
+Flags = Fling_80
+Description = こうげきてきに なる チョッキ。 もたせると とくぼうが あがるが へんかわざを だせなくなる。
+#-------------------------------
+[SAFETYGOGGLES]
+Name = ぼうじんゴーグル
+NamePlural = ぼうじんゴーグル
+PortionName = pair of Safety Goggles
+PortionNamePlural = pairs of Safety Goggles
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+BPPrice = 25
+Flags = Fling_80
+Description = てんこうの ダメージだけでなく こなを だす わざの こうかも ふせげる ゴーグル。
+#-------------------------------
+[PROTECTIVEPADS]
+Name = ぼうごパット
+NamePlural = ぼうごパット
+PortionName = set of Protective Pads
+PortionNamePlural = sets of Protective Pads
+Pocket = 1
+Price = 15000
+SellPrice = 3750
+BPPrice = 25
+Flags = Fling_30
+Description = こうげき する あいてに さわって うける こうかを うけないように する。
+#-------------------------------
+[HEAVYDUTYBOOTS]
+Name = あつぞこブーツ
+NamePlural = あつぞこブーツ
+PortionName = pair of Heavy-Duty Boots
+PortionNamePlural = pairs of Heavy-Duty Boots
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+BPPrice = 25
+Flags = Fling_80
+Description = あしばに しかけられた わななどの えいきょうを うけなくなる。
+#-------------------------------
+[UTILITYUMBRELLA]
+Name = ばんのうがさ
+NamePlural = ばんのうがさ
+Pocket = 1
+Price = 15000
+SellPrice = 3750
+BPPrice = 25
+Flags = Fling_60
+Description = もたせた ポケモンは あめと ひざしがつよいときの えいきょうを うけなくなる。
+#-------------------------------
+[EJECTBUTTON]
+Name = だっしゅつボタン
+NamePlural = だっしゅつボタン
+Pocket = 1
+Price = 30000
+SellPrice = 7500
+BPPrice = 20
+Flags = Fling_30
+Description = もたせて わざを うけると せんとうから だっしゅつして てもちと いれかわる ことができる。
+#-------------------------------
+[EJECTPACK]
+Name = だっしゅつパック
+NamePlural = だっしゅつパック
+Pocket = 1
+Price = 30000
+SellPrice = 7500
+BPPrice = 20
+Flags = Fling_50
+Description = もたせた ポケモンの のうりょくが さがると てもちと いれかわる。
+#-------------------------------
+[REDCARD]
+Name = レッドカード
+NamePlural = レッドカード
+Pocket = 1
+Price = 30000
+SellPrice = 7500
+BPPrice = 20
+Flags = Fling_10
+Description = ふしぎな ちからのある カード。もたせると わざをつかってきた あいてを たいじょう させることが できる。
+#-------------------------------
+[SHEDSHELL]
+Name = きれいなぬけがら
+NamePlural = きれいなぬけがら
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+Flags = Fling_10
+Description = じょうぶで かたい ぬけがら。もたせた ポケモンは ひかえの ポケモンと かならず いれかわれる。
+#-------------------------------
+[SMOKEBALL]
+Name = けむりだま
+NamePlural = けむりだま
+Pocket = 1
+Price = 15000
+SellPrice = 3750
+Flags = Fling_30
+Description = もたせた ポケモンは やせいの ポケモンとの せんとうから ぜったいに にげられる。
+#-------------------------------
+[LUCKYEGG]
+Name = しあわせタマゴ
+NamePlural = しあわせタマゴ
+Pocket = 1
+Price = 5000
+BPPrice = 77
+Flags = Fling_30
+Description = しあわせが つまった タマゴ。もたせた ポケモンは もらえる けいけんちが すこし ふえる。
+#-------------------------------
+[EXPSHARE]
+Name = がくしゅうそうち
+NamePlural = がくしゅうそうち
+Pocket = 1
+Price = 3000
+Flags = Fling_30
+Description = スイッチを いれると てもちの ポケモン すべてが けいけんちを もらえる そうち。
+#-------------------------------
+[AMULETCOIN]
+Name = おまもりこばん
+NamePlural = おまもりこばん
+Pocket = 1
+Price = 15000
+Flags = Fling_30
+Description = もたせた ポケモンが いちどでも せんとうに かおを だすと おかねが 2ばい もらえる。
+#-------------------------------
+[SOOTHEBELL]
+Name = やすらぎのすず
+NamePlural = やすらぎのすず
+Pocket = 1
+Price = 5000
+SellPrice = 1250
+BPPrice = 15
+Flags = Fling_10
+Description = ここちよい ねいろの すず。 もたせた ポケモンは こころが やすらぎ なかよく なりやすくなる。
+#-------------------------------
+[CLEANSETAG]
+Name = きよめのおふだ
+NamePlural = きよめのおふだ
+Pocket = 1
+Price = 2500
+Flags = Fling_30
+Description = いちばん まえの ポケモンに もたせると やせいポケモンが でて きにくくなる。
+#-------------------------------
+[CHOICEBAND]
+Name = こだわりハチマキ
+NamePlural = こだわりハチマキ
+Pocket = 1
+Price = 100000
+SellPrice = 25000
+BPPrice = 25
+Flags = Fling_10
+Description = ちょっと こだわった ハチマキ。もたせると こうげきは あがるが おなじ わざしか だせなくなる。
+#-------------------------------
+[CHOICESPECS]
+Name = こだわりメガネ
+NamePlural = こだわりメガネ
+PortionName = pair of Choice Specs
+PortionNamePlural = pairs of Choice Specs
+Pocket = 1
+Price = 100000
+SellPrice = 25000
+BPPrice = 25
+Flags = Fling_10
+Description = ちょっと こだわった メガネ。もたせると とくこうは あがるが おなじ わざしか だせなくなる。
+#-------------------------------
+[CHOICESCARF]
+Name = こだわりスカーフ
+NamePlural = こだわりスカーフ
+Pocket = 1
+Price = 100000
+SellPrice = 25000
+BPPrice = 25
+Flags = Fling_10
+Description = もたせた ポケモンが にほんばれを つかうと いつもより はれの じかんが ながくなる。
+#-------------------------------
+[HEATROCK]
+Name = あついいわ
+NamePlural = あついいわ
+Pocket = 1
+Price = 8000
+SellPrice = 2000
+BPPrice = 15
+Flags = Fling_60
+Description = もたせた ポケモンが にほんばれを つかうと いつもより はれの じかんが ながくなる。
+#-------------------------------
+[DAMPROCK]
+Name = しめったいわ
+NamePlural = しめったいわ
+Pocket = 1
+Price = 8000
+SellPrice = 2000
+BPPrice = 15
+Flags = Fling_60
+Description = もたせた ポケモンが あまごいを つかうと いつもより あめの じかんが ながくなる。
+#-------------------------------
+[SMOOTHROCK]
+Name = さらさらいわ
+NamePlural = さらさらいわ
+Pocket = 1
+Price = 8000
+SellPrice = 2000
+BPPrice = 15
+Flags = Fling_10
+Description = もたせた ポケモンが すなあらしを つかうと いつもより すなあらしの じかんが ながくなる。
+#-------------------------------
+[ICYROCK]
+Name = つめたいいわ
+NamePlural = つめたいいわ
+Pocket = 1
+Price = 8000
+SellPrice = 2000
+BPPrice = 15
+Flags = Fling_40
+Description = もたせた ポケモンが あられを つかうと いつもより あられの じかんが ながくなる。
+#-------------------------------
+[TERRAINEXTENDER]
+Name = グランドコート
+NamePlural = グランドコート
+Pocket = 1
+Price = 15000
+SellPrice = 3750
+BPPrice = 15
+Flags = Fling_60
+Description = もたせた ポケモンが わざや とくせいで フィールドを はったとき いつもよりも ながく のこる。
+#-------------------------------
+[LIGHTCLAY]
+Name = ひかりのねんど
+NamePlural = ひかりのねんど
+PortionName = lump of Light Clay
+PortionNamePlural = lumps of Light Clay
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+BPPrice = 15
+Flags = Fling_30
+Description = もたせた ポケモンが ひかりのかべや リフレクターを つかったとき いつもよりも ながく のこる。
+#-------------------------------
+[GRIPCLAW]
+Name = ねばりのかぎづめ
+NamePlural = ねばりのかぎづめ
+Pocket = 1
+Price = 10000
+SellPrice = 2500
+BPPrice = 15
+Flags = Fling_90
+Description = もたせると しめつける まきつくなど ダメージを あたえつづける わざの ターンすうが ふえる。
+#-------------------------------
+[BINDINGBAND]
+Name = しめつけバンド
+NamePlural = しめつけバンド
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+BPPrice = 15
+Flags = Fling_30
+Description = しめつけるわざを ほじょする バンド。 もたせると しめつけるわざの いりょくが つよく なる。
+#-------------------------------
+[BIGROOT]
+Name = おおきなねっこ
+NamePlural = おおきなねっこ
+Pocket = 1
+Price = 10000
+SellPrice = 2500
+BPPrice = 15
+Flags = Fling_10
+Description = もたせると HPを すいとる わざで いつもより おおく じぶんの HPを かいふくできる。
+#-------------------------------
+[BLACKSLUDGE]
+Name = くろいヘドロ
+NamePlural = くろいヘドロ
+PortionName = blob of Black Sludge
+PortionNamePlural = blobs of Black Sludge
+Pocket = 1
+Price = 10000
+SellPrice = 2500
+BPPrice = 25
+Flags = Fling_30
+Description = もたせると どくタイプの ポケモンは すこしずつ HPを かいふくする。それいがいは HPが へってしまう。
+#-------------------------------
+[LEFTOVERS]
+Name = たべのこし
+NamePlural = たべのこし
+PortionName = serving of Leftovers
+PortionNamePlural = servings of Leftovers
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+BPPrice = 25
+Flags = Fling_10
+Description = もたせている ポケモンの HPが せんとうの あいだ すこしずつ かいふくする。
+#-------------------------------
+[SHELLBELL]
+Name = かいがらのすず
+NamePlural = かいがらのすず
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+BPPrice = 25
+Flags = Fling_30
+Description = もたせた ポケモンが あいてに ダメージを あたえたとき HPが すこし かいふくする。
+#-------------------------------
+[MENTALHERB]
+Name = メンタルハーブ
+NamePlural = メンタルハーブ
+Pocket = 1
+Price = 10000
+SellPrice = 2500
+BPPrice = 15
+Flags = Fling_10
+Description = もたせた ポケモンが じゆうに わざを だせなくなったときに いちどだけ かいふくする。
+#-------------------------------
+[WHITEHERB]
+Name = しろいハーブ
+NamePlural = しろいハーブ
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+BPPrice = 15
+Flags = Fling_10
+Description = もたせた ポケモンの のうりょくが さがったとき いちどだけ もとの じょうたいに もどす。
+#-------------------------------
+[POWERHERB]
+Name = パワフルハーブ
+NamePlural = パワフルハーブ
+Pocket = 1
+Price = 30000
+SellPrice = 7500
+BPPrice = 15
+Flags = Fling_10
+Description = もたせた ポケモンは いちどだけ 1ターンめに ちからを ためるわざを すぐに つかうことが できる。
+#-------------------------------
+[ABSORBBULB]
+Name = きゅうこん
+NamePlural = きゅうこん
+Pocket = 1
+Price = 5000
+SellPrice = 1250
+BPPrice = 10
+Flags = Fling_30
+Description = つかいすての きゅうこん。もたせて みずの わざを うけると とくこうが あがる。
+#-------------------------------
+[CELLBATTERY]
+Name = じゅうでんち
+NamePlural = じゅうでんち
+Pocket = 1
+Price = 5000
+SellPrice = 1250
+BPPrice = 10
+Flags = Fling_30
+Description = つかいすての じゅうでんち。 もたせて でんきの わざを うけると こうげきが あがる。
+#-------------------------------
+[LUMINOUSMOSS]
+Name = ひかりごけ
+NamePlural = ひかりごけ
+PortionName = clump of Luminous Moss
+PortionNamePlural = clumps of Luminous Moss
+Pocket = 1
+Price = 5000
+SellPrice = 1250
+BPPrice = 10
+Flags = Fling_30
+Description = つかいすての ひかりごけ。もたせて みずの わざを うけると とくぼうが あがる。
+#-------------------------------
+[SNOWBALL]
+Name = ゆきだま
+NamePlural = ゆきだま
+Pocket = 1
+Price = 5000
+SellPrice = 1250
+BPPrice = 10
+Flags = Fling_30
+Description = つかいすての ゆきだま。 もたせて こおりの わざを うけると こうげきが あがる。
+#-------------------------------
+[WEAKNESSPOLICY]
+Name = じゃくてんほけん
+NamePlural = じゃくてんほけん
+Pocket = 1
+Price = 50000
+SellPrice = 12500
+BPPrice = 20
+Flags = Fling_80
+Description = じゃくてんを つかれたとき こうげきと とくこうが それぞれ ぐーんと あがる。
+#-------------------------------
+[BLUNDERPOLICY]
+Name = からぶりほけん
+NamePlural = からぶりほけん
+Pocket = 1
+Price = 30000
+SellPrice = 7500
+BPPrice = 20
+Flags = Fling_80
+Description = めいちゅうりつに よって わざが はずれたとき すばやさが ぐーんと あがる。
+#-------------------------------
+[THROATSPRAY]
+Name = のどスプレー
+NamePlural = のどスプレー
+PortionName = bottle of Throat Spray
+PortionNamePlural = bottles of Throat Spray
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+BPPrice = 10
+Flags = Fling_30
+Description = おとに かんする わざを つかうと とくこうが あがる。
+#-------------------------------
+[ADRENALINEORB]
+Name = ビビリだま
+NamePlural = ビビリだま
+Pocket = 1
+Price = 5000
+SellPrice = 1250
+BPPrice = 10
+Flags = Fling_30
+Description = つかうと なんどでも なかまを よぶ。 もたせると いかくを うけたとき すばやさが あがる。 つかうとなくなる。
+#-------------------------------
+[BRIGHTPOWDER]
+Name = ひかりのこな
+NamePlural = ひかりのこな
+PortionName = bag of Bright Powder
+PortionNamePlural = bags of Bright Powder
+Pocket = 1
+Price = 30000
+SellPrice = 7500
+BPPrice = 48
+Flags = Fling_10
+Description = キラキラ ひかるこな。 もたせると ひかりが あいてを まどわして わざが めいちゅう しにくくなる。
+#-------------------------------
+[QUICKCLAW]
+Name = せんせいのツメ
+NamePlural = せんせいのツメ
+Pocket = 1
+Price = 8000
+SellPrice = 2000
+BPPrice = 25
+Flags = Fling_80
+Description = かるくて するどい ツメ。 もたせると あいてより さきに こうどう できることが ある。
+#-------------------------------
+[ROOMSERVICE]
+Name = ルームサービス
+NamePlural = ルームサービス
+PortionName = voucher for Room Service
+PortionNamePlural = vouchers for Room Service
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+BPPrice = 15
+Flags = Fling_100
+Description = ポケモンに もたせると トリックルームのときに つかって すばやさが さがる。
+#-------------------------------
+[ELECTRICSEED]
+Name = エレキシード
+NamePlural = エレキシード
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+Flags = Fling_10
+Description = ポケモンに もたせると エレキフィールドのときに つかって ぼうぎょが あがる。
+#-------------------------------
+[GRASSYSEED]
+Name = グラスシード
+NamePlural = グラスシード
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+Flags = Fling_10
+Description = ポケモンに もたせると グラスフィールドのときに つかって ぼうぎょが あがる。
+#-------------------------------
+[MISTYSEED]
+Name = ミストシード
+NamePlural = ミストシード
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+Flags = Fling_10
+Description = ポケモンに もたせると ミストフィールドのときに つかって とくぼうが あがる。
+#-------------------------------
+[PSYCHICSEED]
+Name = サイコシード
+NamePlural = サイコシード
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+Flags = Fling_10
+Description = ポケモンに もたせると サイコフィールドのときに つかって とくぼうが あがる。
+#-------------------------------
+[LIFEORB]
+Name = いのちのたま
+NamePlural = いのちのたま
+Pocket = 1
+Price = 50000
+SellPrice = 12500
+BPPrice = 25
+Flags = Fling_30
+Description = もたせると こうげきする たびに HPが すこし へってしまうが わざの いりょくが あがる。
+#-------------------------------
+[EXPERTBELT]
+Name = たつじんのおび
+NamePlural = たつじんのおび
+Pocket = 1
+Price = 30000
+SellPrice = 7500
+BPPrice = 25
+Flags = Fling_10
+Description = つかいこまれた くろい おび。もたせると こうかばつぐんの とき わざの いりょくが すこし あがる。
+#-------------------------------
+[METRONOME]
+Name = メトロノーム
+NamePlural = メトロノーム
+Pocket = 1
+Price = 15000
+SellPrice = 3750
+BPPrice = 25
+Flags = Fling_30
+Description = もたせると おなじわざを れんぞくで つかったとき いりょくが あがる。やめると いりょくは もどる。
+#-------------------------------
+[MUSCLEBAND]
+Name = ちからのハチマキ
+NamePlural = ちからのハチマキ
+Pocket = 1
+Price = 8000
+SellPrice = 2000
+BPPrice = 48
+Flags = Fling_10
+Description = ちからが わいてくる ハチマキ。 もたせると ぶつりわざの いりょくが すこし あがる。
+#-------------------------------
+[WISEGLASSES]
+Name = ものしりメガネ
+NamePlural = ものしりメガネ
+PortionName = pair of Wise Glasses
+PortionNamePlural = pairs of Wise Glasses
+Pocket = 1
+Price = 8000
+SellPrice = 2000
+BPPrice = 48
+Flags = Fling_10
+Description = ぶあつい レンズの ついた メガネ。 もたせると とくしゅわざの いりょくが すこし あがる。
+#-------------------------------
+[RAZORCLAW]
+Name = するどいツメ
+NamePlural = するどいツメ
+Pocket = 1
+Price = 15000
+SellPrice = 3750
+BPPrice = 5
+Flags = Fling_80
+Description = するどく とがった ツメ。もたせると わざが きゅうしょに あたりやすくなる。
+#-------------------------------
+[SCOPELENS]
+Name = ピントレンズ
+NamePlural = ピントレンズ
+Pocket = 1
+Price = 15000
+SellPrice = 3750
+BPPrice = 48
+Flags = Fling_30
+Description = じゃくてんが みえる レンズ。もたせた ポケモンの わざが きゅうしょに あたりやすくなる。
+#-------------------------------
+[WIDELENS]
+Name = こうかくレンズ
+NamePlural = こうかくレンズ
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+BPPrice = 48
+Flags = Fling_10
+Description = ものが おおきく みえる レンズ。 もたせると わざの めいちゅうりつが すこし あがる。
+#-------------------------------
+[ZOOMLENS]
+Name = フォーカスレンズ
+NamePlural = フォーカスレンズ
+Pocket = 1
+Price = 10000
+SellPrice = 2500
+BPPrice = 48
+Flags = Fling_10
+Description = もたせた ポケモンが あいてよりも こうどうするのが おそいとき わざが めいちゅう しやすくなる。
+#-------------------------------
+[KINGSROCK]
+Name = おうじゃのしるし
+NamePlural = おうじゃのしるし
+Pocket = 1
+Price = 10000
+SellPrice = 2500
+BPPrice = 5
+Flags = Fling_30
+Description = もたせた ポケモンが あいてに ダメージを あたえたとき あいてが ひるむことが ある。
+#-------------------------------
+[RAZORFANG]
+Name = するどいキバ
+NamePlural = するどいキバ
+Pocket = 1
+Price = 15000
+SellPrice = 3750
+BPPrice = 5
+Flags = Fling_30
+Description = するどく とがった キバ。もたせると ダメージを あたえたとき ひるませることが ある。
+#-------------------------------
+[LAGGINGTAIL]
+Name = こうこうのしっぽ
+NamePlural = こうこうのしっぽ
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+BPPrice = 25
+Flags = Fling_10
+Description = とても おもたい なにかの しっぽ。 もたせると いつもより こうどうが おそくなる。
+#-------------------------------
+[FOCUSBAND]
+Name = きあいのハチマキ
+NamePlural = きあいのハチマキ
+Pocket = 1
+Price = 10000
+SellPrice = 2500
+BPPrice = 48
+Flags = Fling_10
+Description = もたせた ポケモンは わざを くらっても HPを 1だけ のこして たえることが ある。
+#-------------------------------
+[FOCUSSASH]
+Name = きあいのタスキ
+NamePlural = きあいのタスキ
+Pocket = 1
+Price = 50000
+SellPrice = 12500
+BPPrice = 15
+Flags = Fling_10
+Description = もたせると HPが まんたんのとき ひんしになりそうな わざを うけても HP1で いちどだけ たえる。
+#-------------------------------
+[FLAMEORB]
+Name = かえんだま
+NamePlural = かえんだま
+Pocket = 1
+Price = 15000
+SellPrice = 3750
+BPPrice = 16
+Flags = Fling_30
+Description = さわると ねつをだす ふしぎなたま。もたせると せんとうちゅうに やけどの じょうたいに なる。
+#-------------------------------
+[TOXICORB]
+Name = どくどくだま
+NamePlural = どくどくだま
+Pocket = 1
+Price = 15000
+SellPrice = 3750
+BPPrice = 16
+Flags = Fling_30
+Description = さわると どくをだす ふしぎなたま。もたせると せんとうちゅうに もうどくの じょうたいに なる。
+#-------------------------------
+[STICKYBARB]
+Name = くっつきバリ
+NamePlural = くっつきバリ
+Pocket = 1
+Price = 10000
+SellPrice = 2500
+BPPrice = 16
+Flags = Fling_80
+Description = もたせると まいターン ダメージを うける。 じぶんに ふれてきた あいてに くっつくことも ある。
+#-------------------------------
+[IRONBALL]
+Name = くろいてっきゅう
+NamePlural = くろいてっきゅう
+Pocket = 1
+Price = 20000
+SellPrice = 5000
+BPPrice = 10
+Flags = Fling_130
+Description = もたせると すばやさが さがる。 ひこうタイプや ふゆう ポケモンは じめんわざが あたって しまう。
+#-------------------------------
+[RINGTARGET]
+Name = ねらいのまと
+NamePlural = ねらいのまと
+Pocket = 1
+Price = 10000
+SellPrice = 2500
+BPPrice = 10
+Flags = Fling_10
+Description = ポケモンの タイプの あいしょうで むこう だった わざが あたるように なってしまう。
+#-------------------------------
+[MACHOBRACE]
+Name = きょうせいギプス
+NamePlural = きょうせいギプス
+Pocket = 1
+Price = 3000
+BPPrice = 10
+Flags = Fling_60
+Description = ポケモンに もたせている あいだは すばやさが さがるが ふつうよりも つよく そだつ。
+#-------------------------------
+[POWERWEIGHT]
+Name = パワーウエイト
+NamePlural = パワーウエイト
+Pocket = 1
+Price = 10000
+SellPrice = 2500
+BPPrice = 10
+Flags = Fling_70
+Description = もたせると すばやさが さがるが ふつうよりも ポケモンの HPが たかく そだちやすい。
+#-------------------------------
+[POWERBRACER]
+Name = パワーリスト
+NamePlural = パワーリスト
+Pocket = 1
+Price = 10000
+SellPrice = 2500
+BPPrice = 10
+Flags = Fling_70
+Description = もたせると すばやさが さがるが ふつうよりも ポケモンの こうげきが たかく そだちやすい。
+#-------------------------------
+[POWERBELT]
+Name = パワーベルト
+NamePlural = パワーベルト
+Pocket = 1
+Price = 10000
+SellPrice = 2500
+BPPrice = 10
+Flags = Fling_70
+Description = もたせると すばやさが さがるが ふつうよりも ポケモンの ぼうぎょが たかく そだちやすい。
+#-------------------------------
+[POWERLENS]
+Name = パワーレンズ
+NamePlural = パワーレンズ
+Pocket = 1
+Price = 10000
+SellPrice = 2500
+BPPrice = 10
+Flags = Fling_70
+Description = もたせると すばやさが さがるが ふつうよりも ポケモンの とくこうが たかく そだちやすい。
+#-------------------------------
+[POWERBAND]
+Name = パワーバンド
+NamePlural = パワーバンド
+Pocket = 1
+Price = 10000
+SellPrice = 2500
+BPPrice = 10
+Flags = Fling_70
+Description = もたせると すばやさが さがるが ふつうよりも ポケモンの とくぼうが たかく そだちやすい。
+#-------------------------------
+[POWERANKLET]
+Name = パワーアンクル
+NamePlural = パワーアンクル
+Pocket = 1
+Price = 10000
+SellPrice = 2500
+BPPrice = 10
+Flags = Fling_70
+Description = もたせると すばやさが さがるが ふつうよりも ポケモンの すばやさが たかく そだちやすい。
+#-------------------------------
+[LAXINCENSE]
+Name = のんきのおこう
+NamePlural = のんきのおこう
+PortionName = jar of Lax Incense
+PortionNamePlural = jars of Lax Incense
+Pocket = 1
+Price = 5000
+Flags = Fling_10
+Description = もたせると おこうの ふしぎな かおりが あいてを まどわせて わざが めいちゅう しにくくなる。
+#-------------------------------
+[FULLINCENSE]
+Name = まんぷくおこう
+NamePlural = まんぷくおこう
+PortionName = jar of Full Incense
+PortionNamePlural = jars of Full Incense
+Pocket = 1
+Price = 5000
+Flags = Fling_10
+Description = ふしぎな かおりの おこう。もたせた ポケモンは いつもより こうどうが おそくなる。
+#-------------------------------
+[LUCKINCENSE]
+Name = こううんのおこう
+NamePlural = こううんのおこう
+PortionName = jar of Luck Incense
+PortionNamePlural = jars of Luck Incense
+Pocket = 1
+Price = 11000
+Flags = Fling_10
+Description = もたせた ポケモンが いちどでも せんとうに かおを だすと おかねが 2ばい もらえる。
+#-------------------------------
+[PUREINCENSE]
+Name = きよめのおこう
+NamePlural = きよめのおこう
+PortionName = jar of Pure Incense
+PortionNamePlural = jars of Pure Incense
+Pocket = 1
+Price = 6000
+Flags = Fling_10
+Description = いちばん まえの ポケモンに もたせると やせいポケモンが でて きにくくなる。
+#-------------------------------
+[SEAINCENSE]
+Name = うしおのおこう
+NamePlural = うしおのおこう
+PortionName = jar of Sea Incense
+PortionNamePlural = jars of Sea Incense
+Pocket = 1
+Price = 2000
+Flags = Fling_10
+Description = もたせている ポケモンが だす みずタイプの わざの いりょくが すこし あがる。
+#-------------------------------
+[WAVEINCENSE]
+Name = さざなみのおこう
+NamePlural = さざなみのおこう
+PortionName = jar of Wave Incense
+PortionNamePlural = jars of Wave Incense
+Pocket = 1
+Price = 2000
+Flags = Fling_10
+Description = ふしぎな かおりの おこう。もたせると みずタイプの わざの いりょくが あがる。
+#-------------------------------
+[ROSEINCENSE]
+Name = おはなのおこう
+NamePlural = おはなのおこう
+PortionName = jar of Rose Incense
+PortionNamePlural = jars of Rose Incense
+Pocket = 1
+Price = 2000
+Flags = Fling_10
+Description = ふしぎな かおりの おこう。もたせると くさタイプの わざの いりょくが あがる。
+#-------------------------------
+[ODDINCENSE]
+Name = あやしいおこう
+NamePlural = あやしいおこう
+PortionName = jar of Odd Incense
+PortionNamePlural = jars of Odd Incense
+Pocket = 1
+Price = 2000
+Flags = Fling_10
+Description = ふしぎな かおりの おこう。もたせると エスパータイプの わざの いりょくが あがる。
+#-------------------------------
+[ROCKINCENSE]
+Name = がんせきおこう
+NamePlural = がんせきおこう
+PortionName = jar of Rock Incense
+PortionNamePlural = jars of Rock Incense
+Pocket = 1
+Price = 2000
+Flags = Fling_10
+Description = ふしぎな かおりの おこう。もたせると いわタイプの わざの いりょくが あがる。
+#-------------------------------
+[CHARCOAL]
+Name = もくたん
+NamePlural = もくたん
+PortionName = piece of Charcoal
+PortionNamePlural = pieces of Charcoal
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_30
+Description = ものを もやす ねんりょう。もたせると ほのおタイプの わざの いりょくが あがる。
+#-------------------------------
+[MYSTICWATER]
+Name = しんぴのしずく
+NamePlural = しんぴのしずく
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_30
+Description = しずくの かたちの ほうせき。もたせると みずタイプの わざの いりょくが あがる。
+#-------------------------------
+[MAGNET]
+Name = じしゃく
+NamePlural = じしゃく
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_30
+Description = きょうりょくな じしゃく。 もたせると でんきタイプの わざの いりょくが あがる。
+#-------------------------------
+[MIRACLESEED]
+Name = きせきのタネ
+NamePlural = きせきのタネ
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_30
+Description = せいめいが やどる タネ。 もたせると くさタイプの わざの いりょくが あがる。
+#-------------------------------
+[NEVERMELTICE]
+Name = とけないこおり
+NamePlural = とけないこおり
+PortionName = piece of Never-Melt Ice
+PortionNamePlural = pieces of Never-Melt Ice
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_30
+Description = ねつを よせつけない こおり。 もたせると こおりタイプの わざの いりょくが あがる。
+#-------------------------------
+[BLACKBELT]
+Name = くろおび
+NamePlural = くろおび
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_30
+Description = きが ひきしまる おび。 もたせると かくとうタイプの わざの いりょくが あがる。
+#-------------------------------
+[POISONBARB]
+Name = どくバリ
+NamePlural = どくバリ
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_70
+Description = どくのある ちいさな ハリ。もたせると どくタイプの わざの いりょくが あがる。
+#-------------------------------
+[SOFTSAND]
+Name = やわらかいすな
+NamePlural = やわらかいすな
+PortionName = bag of Soft Sand
+PortionNamePlural = bags of Soft Sand
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_10
+Description = さわると サラサラする すな。 もたせると じめんタイプの わざの いりょくが あがる。
+#-------------------------------
+[SHARPBEAK]
+Name = するどいくちばし
+NamePlural = するどいくちばし
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_50
+Description = ながく とがった くちばし。 もたせると ひこうタイプの わざの いりょくが あがる。
+#-------------------------------
+[TWISTEDSPOON]
+Name = まがったスプーン
+NamePlural = まがったスプーン
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_30
+Description = ねんりきを こめた スプーン。もたせると エスパータイプの わざの いりょくが あがる。
+#-------------------------------
+[SILVERPOWDER]
+Name = ぎんのこな
+NamePlural = ぎんのこな
+PortionName = pile of Silver Powder
+PortionNamePlural = piles of Silver Powder
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_10
+Description = ぎんいろに かがやく こな。 もたせると むしタイプの わざの いりょくが あがる。
+#-------------------------------
+[HARDSTONE]
+Name = かたいいし
+NamePlural = かたいいし
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_100
+Description = ぜったいに われない いし。 もたせると いわタイプの わざの いりょくが あがる。
+#-------------------------------
+[SPELLTAG]
+Name = のろいのおふだ
+NamePlural = のろいのおふだ
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_30
+Description = あやしくて ぶきみな おふだ。 もたせると ゴーストタイプの わざの いりょくが あがる。
+#-------------------------------
+[DRAGONFANG]
+Name = りゅうのキバ
+NamePlural = りゅうのキバ
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_70
+Description = かたくて するどい キバ。 もたせると ドラゴンタイプの わざの いりょくが あがる。
+#-------------------------------
+[BLACKGLASSES]
+Name = くろいメガネ
+NamePlural = くろいメガネ
+PortionName = pair of Black Glasses
+PortionNamePlural = pairs of Black Glasses
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_30
+Description = あやしく みえる メガネ。 もたせると あくタイプの わざの いりょくが あがる。
+#-------------------------------
+[METALCOAT]
+Name = メタルコート
+NamePlural = メタルコート
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_30
+Description = とくしゅな きんぞくの まく。もたせると はがねタイプの わざの いりょくが あがる。
+#-------------------------------
+[SILKSCARF]
+Name = シルクのスカーフ
+NamePlural = シルクのスカーフ
+Pocket = 1
+Price = 3000
+SellPrice = 750
+Flags = Fling_10
+Description = はだざわりの よい スカーフ。 もたせると ノーマルタイプの わざの いりょくが あがる。
+#-------------------------------
+[FLAMEPLATE]
+Name = ひのたまプレート
+NamePlural = ひのたまプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = ほのおの タイプの せきばん。もたせると ほのおタイプの わざの いりょくが つよまる。
+#-------------------------------
+[SPLASHPLATE]
+Name = しずくプレート
+NamePlural = しずくプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = みずの タイプの せきばん。もたせると みずタイプの わざの いりょくが つよまる。
+
+#-------------------------------
+[ZAPPLATE]
+Name = いかずちプレート
+NamePlural = いかずちプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = でんきの タイプの せきばん。もたせると でんきタイプの わざの いりょくが つよまる。
+#-------------------------------
+[MEADOWPLATE]
+Name = みどりのプレート
+NamePlural = みどりのプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = くさの タイプの せきばん。もたせると くさタイプの わざの いりょくが つよまる。
+#-------------------------------
+[ICICLEPLATE]
+Name = つららのプレート
+NamePlural = つららのプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = こおりの タイプの せきばん。もたせると こおりタイプの わざの いりょくが つよまる。
+#-------------------------------
+[FISTPLATE]
+Name = こぶしのプレート
+NamePlural = こぶしのプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = かくとうの タイプの せきばん。もたせると かくとうタイプの わざの いりょくが つよまる。
+#-------------------------------
+[TOXICPLATE]
+Name = もうどくプレート
+NamePlural = もうどくプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = どくの タイプの せきばん。もたせると どくタイプの わざの いりょくが つよまる。
+#-------------------------------
+[EARTHPLATE]
+Name = だいちのプレート
+NamePlural = だいちのプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = じめんの タイプの せきばん。もたせると じめんタイプの わざの いりょくが つよまる。
+#-------------------------------
+[SKYPLATE]
+Name = あおぞらプレート
+NamePlural = あおぞらプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = ひこうの タイプの せきばん。もたせると ひこうタイプの わざの いりょくが つよまる。
+#-------------------------------
+[MINDPLATE]
+Name = ふしぎのプレート
+NamePlural = ふしぎのプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = エスパーの タイプの せきばん。もたせると エスパータイプの わざの いりょくが つよまる。
+#-------------------------------
+[INSECTPLATE]
+Name = たまむしプレート
+NamePlural = たまむしプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = むしの タイプの せきばん。もたせると むしタイプの わざの いりょくが つよまる。
+#-------------------------------
+[STONEPLATE]
+Name = がんせきプレート
+NamePlural = がんせきプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = いわの タイプの せきばん。もたせると いわタイプの わざの いりょくが つよまる。
+#-------------------------------
+[SPOOKYPLATE]
+Name = もののけプレート
+NamePlural = もののけプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = ゴーストの タイプの せきばん。もたせると ゴーストタイプの わざの いりょくが つよまる。
+#-------------------------------
+[DRACOPLATE]
+Name = りゅうのプレート
+NamePlural = りゅうのプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = ドラゴンの タイプの せきばん。もたせると ドラゴンタイプの わざの いりょくが つよまる。
+#-------------------------------
+[DREADPLATE]
+Name = こわもてプレート
+NamePlural = こわもてプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = あくの タイプの せきばん。もたせると あくタイプの わざの いりょくが つよまる。
+#-------------------------------
+[IRONPLATE]
+Name = こうてつプレート
+NamePlural = こうてつプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = はがねの タイプの せきばん。もたせると はがねタイプの わざの いりょくが つよまる。
+#-------------------------------
+[PIXIEPLATE]
+Name = せいれいプレート
+NamePlural = せいれいプレート
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = フェアリーの タイプの せきばん。もたせると フェアリータイプの わざの いりょくが つよまる。
+#-------------------------------
+[FIREGEM]
+Name = ほのおのジュエル
+NamePlural = ほのおのジュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = ほのおの タイプの ジュエル。 もたせると いちどだけ ほのおの わざの いりょくが つよまる。
+#-------------------------------
+[WATERGEM]
+Name = みずのジュエル
+NamePlural = みずのジュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = みずの タイプの ジュエル。 もたせると いちどだけ みずの わざの いりょくが つよまる。
+#-------------------------------
+[ELECTRICGEM]
+Name = でんきのジュエル	
+NamePlural = でんきのジュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = でんきの タイプの ジュエル。 もたせると いちどだけ でんきの わざの いりょくが つよまる。
+#-------------------------------
+[GRASSGEM]
+Name = くさのジュエル
+NamePlural = くさのジュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = くさの タイプの ジュエル。 もたせると いちどだけ くさの わざの いりょくが つよまる。
+#-------------------------------
+[ICEGEM]
+Name = こおりのジュエル
+NamePlural = こおりのジュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = こおりの タイプの ジュエル。 もたせると いちどだけ こおりの わざの いりょくが つよまる。
+#-------------------------------
+[FIGHTINGGEM]
+Name = かくとうジュエル
+NamePlural = かくとうジュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = かくとうの タイプの ジュエル。 もたせると いちどだけ こおりの わざの いりょくが つよまる。
+#-------------------------------
+[POISONGEM]
+Name = どくのジュエル
+NamePlural = どくのジュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = どくの タイプの ジュエル。 もたせると いちどだけ どくの わざの いりょくが つよまる。
+#-------------------------------
+[GROUNDGEM]
+Name = じめんのジュエル
+NamePlural = じめんのジュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = じめんの タイプの ジュエル。 もたせると いちどだけ じめんの わざの いりょくが つよまる。
+#-------------------------------
+[FLYINGGEM]
+Name = ひこうのジュエル
+NamePlural = ひこうのジュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = ひこうの タイプの ジュエル。 もたせると いちどだけ ひこうの わざの いりょくが つよまる。
+#-------------------------------
+[PSYCHICGEM]
+Name = エスパージュエル
+NamePlural = エスパージュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = エスパーの タイプの ジュエル。 もたせると いちどだけ エスパーの わざの いりょくが つよまる。
+#-------------------------------
+[BUGGEM]
+Name = むしのジュエル
+NamePlural = むしのジュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = むしの タイプの ジュエル。 もたせると いちどだけ むしの わざの いりょくが つよまる。
+#-------------------------------
+[ROCKGEM]
+Name = いわのジュエル
+NamePlural = いわのジュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = いわの タイプの ジュエル。 もたせると いちどだけ いわの わざの いりょくが つよまる。
+#-------------------------------
+[GHOSTGEM]
+Name = ゴーストジュエル
+NamePlural = ゴーストジュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = ゴーストの タイプの ジュエル。 もたせると いちどだけ ゴーストの わざの いりょくが つよまる。
+#-------------------------------
+[DRAGONGEM]
+Name = ドラゴンジュエル
+NamePlural = ドラゴンジュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = ドラゴンの タイプの ジュエル。 もたせると いちどだけ ドラゴンの わざの いりょくが つよまる。
+#-------------------------------
+[DARKGEM]
+Name = あくのジュエル
+NamePlural = あくのジュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = あくの タイプの ジュエル。 もたせると いちどだけ あくの わざの いりょくが つよまる。
+#-------------------------------
+[STEELGEM]
+Name = はがねのジュエル
+NamePlural = はがねのジュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = はがねの タイプの ジュエル。 もたせると いちどだけ はがねの わざの いりょくが つよまる。
+#-------------------------------
+[FAIRYGEM]
+Name = ようせいジュエル
+NamePlural = ようせいジュエル
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = ようせいの タイプの ジュエル。 もたせると いちどだけ ようせいの わざの いりょくが つよまる。
+#-------------------------------
+[NORMALGEM]
+Name = ノーマルジュエル
+NamePlural = ノーマルジュエル
+Pocket = 1
+Price = 15000
+SellPrice = 3750
+Flags = TypeGem
+Description = ノーマルの タイプの ジュエル。 もたせると いちどだけ ノーマルの わざの いりょくが つよまる。
+#-------------------------------
+[LIGHTBALL]
+Name = でんきだま
+NamePlural = でんきだま
+Pocket = 1
+Price = 500
+Flags = Fling_30
+Description = ピカチュウに もたせると こうげきと とくこうの いりょくが あがる ふしぎな たま。
+#-------------------------------
+[LUCKYPUNCH]
+Name = ラッキーパンチ
+NamePlural = ラッキーパンチ
+Pocket = 1
+Price = 1000
+BPPrice = 7
+Flags = Fling_40
+Description = こううんを よぶ グローブ。 ラッキーに もたせると わざが きゅうしょに あたりやすくなる。
+#-------------------------------
+[METALPOWDER]
+Name = メタルパウダー
+NamePlural = メタルパウダー
+PortionName = bag of Metal Powder
+PortionNamePlural = bags of Metal Powder
+Pocket = 1
+Price = 1000
+Flags = Fling_10
+Description = メタモンに もたせると ぼうぎょが あがる ふしぎなこな。とても こまかくて かたい。
+#-------------------------------
+[QUICKPOWDER]
+Name = スピードパウダー
+NamePlural = スピードパウダー
+PortionName = bag of Quick Powder
+PortionNamePlural = bags of Quick Powder
+Pocket = 1
+Price = 1000
+Flags = Fling_10
+Description = メタモンに もたせると すばやさが あがる ふしぎなこな。とても こまかくて かたい。
+#-------------------------------
+[THICKCLUB]
+Name = ふといホネ
+NamePlural = ふといホネ
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = なにかの かたい ホネ。 カラカラ または ガラガラに もたせると こうげきが あがる。
+#-------------------------------
+[LEEK]
+Name = ながねぎ
+NamePlural = ながねぎ
+Pocket = 1
+Price = 1000
+Flags = Fling_60
+Description = とても ながくて かたい クキ。カモネギに もたせると わざが きゅうしょに あたりやすくなる。
+#-------------------------------
+[SOULDEW]
+Name = こころのしずく
+NamePlural = こころのしずく
+Pocket = 1
+Price = 0
+Flags = Fling_30
+Description = ラティオスや ラティアスに もたせると エスパーと ドラゴンタイプの わざの いりょくが あがる ふしぎな たま。
+#-------------------------------
+[DEEPSEATOOTH]
+Name = しんかいのキバ
+NamePlural = しんかいのキバ
+Pocket = 1
+Price = 2000
+BPPrice = 5
+Flags = Fling_90
+Description = パールルに もたせると とくこうが あがる キバ。 するどく ぎんいろに ひかる。
+#-------------------------------
+[DEEPSEASCALE]
+Name = しんかいのウロコ
+NamePlural = しんかいのウロコ
+Pocket = 1
+Price = 2000
+BPPrice = 5
+Flags = Fling_30
+Description = パールルに もたせると とくぼうが あがる ウロコ。 うすい ピンクいろに ひかる。
+#-------------------------------
+[ADAMANTORB]
+Name = こんごうだま
+NamePlural = こんごうだま
+Pocket = 1
+Price = 10000
+SellPrice = 0
+Flags = Fling_60
+Description = ディアルガに もたせると ドラゴンと はがねタイプの わざの いりょくが あがる ひかり かがやく たま。
+#-------------------------------
+[LUSTROUSORB]
+Name = しらたま
+NamePlural = しらたま
+Pocket = 1
+Price = 10000
+SellPrice = 0
+Flags = Fling_60
+Description = パルキアに もたせると ドラゴンと みずタイプの わざの いりょくが あがる うつくしく かがやく たま。
+#-------------------------------
+[GRISEOUSORB]
+Name = はっきんだま
+NamePlural = はっきんだま
+Pocket = 1
+Price = 10000
+SellPrice = 0
+Flags = Fling_60
+Description = ギラティナに もたせると ドラゴンと ゴーストタイプの わざの いりょくが あがる ひかり かがやく たま。
+#-------------------------------
+[RUSTEDSWORD]
+Name = くちたけん
+NamePlural = くちたけん
+Pocket = 1
+Price = 0
+Description = おおむかしの えいゆうが さいやくを うちはらったと つたえられる けん だが いまは さびて ボロボロに なっている。
+#-------------------------------
+[RUSTEDSHIELD]
+Name = くちたたて
+NamePlural = くちたたて
+Pocket = 1
+Price = 0
+Description = おおむかしの えいゆうが さいやくを うちはらったと つたえられる たて だが いまは さびて ボロボロに なっている。
+#-------------------------------
+[DOUSEDRIVE]
+Name = アクアカセット
+NamePlural = アクアカセット
+Pocket = 1
+Price = 0
+Flags = Fling_70
+Description = ゲノセクトに もたせると テクノバスターという わざが みずタイプになる カセット。
+#-------------------------------
+[SHOCKDRIVE]
+Name = イナズマカセット
+NamePlural = イナズマカセット
+Pocket = 1
+Price = 0
+Flags = Fling_70
+Description = ゲノセクトに もたせると テクノバスターという わざが でんきタイプになる カセット。
+#-------------------------------
+[BURNDRIVE]
+Name = ブレイズカセット
+NamePlural = ブレイズカセット
+Pocket = 1
+Price = 0
+Flags = Fling_70
+Description = ゲノセクトに もたせると テクノバスターという わざが ほのおタイプになる カセット。
+#-------------------------------
+[CHILLDRIVE]
+Name = フリーズカセット
+NamePlural = フリーズカセット
+Pocket = 1
+Price = 0
+Flags = Fling_70
+Description = ゲノセクトに もたせると テクノバスターという わざが こおりタイプになる カセット。
+
+#-------------------------------
+[FIREMEMORY]
+Name = ファイヤーメモリ
+NamePlural = ファイヤーメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = ほのおタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[WATERMEMORY]
+Name = ウオーターメモリ
+NamePlural = ウオーターメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = みずタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[ELECTRICMEMORY]
+Name = エレクトロメモリ
+NamePlural = エレクトロメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = でんきタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[GRASSMEMORY]
+Name = グラスメモリ
+NamePlural = グラスメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = くさタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[ICEMEMORY]
+Name = アイスメモリ
+NamePlural = アイスメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = こおりタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[FIGHTINGMEMORY]
+Name = ファイトメモリ
+NamePlural = ファイトメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = かくとうタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[POISONMEMORY]
+Name = ポイズンメモリ
+NamePlural = ポイズンメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = どくタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[GROUNDMEMORY]
+Name = グラウンドメモリ
+NamePlural = グラウンドメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = じめんタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[FLYINGMEMORY]
+Name = フライングメモリ
+NamePlural = フライングメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = ひこうタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[PSYCHICMEMORY]
+Name = サイキックメモリ
+NamePlural = サイキックメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = エスパータイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[BUGMEMORY]
+Name = バグメモリ
+NamePlural = バグメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = むしタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[ROCKMEMORY]
+Name = ロックメモリ
+NamePlural = ロックメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = いわタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[GHOSTMEMORY]
+Name = ゴーストメモリ
+NamePlural = ゴーストメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = ゴーストタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[DRAGONMEMORY]
+Name = ドラゴンメモリ
+NamePlural = ドラゴンメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = ドラゴンタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[DARKMEMORY]
+Name = ダークメモリ
+NamePlural = ダークメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = あくタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[STEELMEMORY]
+Name = スチールメモリ
+NamePlural = スチールメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = はがねタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[FAIRYMEMORY]
+Name = フェアリーメモリ
+NamePlural = フェアリーメモリ
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = 	フェアリータイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+#-------------------------------
+[EVERSTONE]
+Name = かわらずのいし
+NamePlural = かわらずのいし
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+Flags = Fling_30
+Description = ポケモンに もたせると そのあいだ しんか しなくなる ふしぎな いし。
+#-------------------------------
+[DRAGONSCALE]
+Name = りゅうのウロコ
+NamePlural = りゅうのウロコ
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+Flags = Fling_30
+Description = かたくて じょうぶな ウロコ。ドラゴンタイプの ポケモンが もっていることが ある。
+#-------------------------------
+[UPGRADE]
+Name = アップグレード
+NamePlural = アップグレード
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+Flags = Fling_30
+Description = なかに いろんな じょうほうが つまった とうめいな きかい。 シルフ カンパニーせい。
+#-------------------------------
+[DUBIOUSDISC]
+Name = あやしいパッチ
+NamePlural = あやしいパッチ
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+Flags = Fling_50
+Description = なかに あやしい じょうほうが つまった とうめいな きかい。せいさくしゃは ふめい。
+#-------------------------------
+[PROTECTOR]
+Name = プロテクター
+NamePlural = プロテクター
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+Flags = Fling_80
+Description = なにかの プロテクター。 とても かたくて おもい。 ある ポケモンが このんでいる。
+#-------------------------------
+[ELECTIRIZER]
+Name = エレキブースター
+NamePlural = エレキブースター
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+Flags = Fling_80
+Description = とてつもない でんきの エネルギーが たくわえられている はこ。 ある ポケモンが このんでいる。
+#-------------------------------
+[MAGMARIZER]
+Name = マグマブースター
+NamePlural = マグマブースター
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+Flags = Fling_80
+Description = とてつもない マグマの エネルギーが たくわえられている はこ。 ある ポケモンが このんでいる。
+#-------------------------------
+[REAPERCLOTH]
+Name = れいかいのぬの
+NamePlural = れいかいのぬの
+PortionName = scrap of Reaper Cloth
+PortionNamePlural = scraps of Reaper Cloth
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+Flags = Fling_10
+Description = おそろしく つよい れいりょくが こめられている ぬの。ある ポケモンが このんでいる。
+#-------------------------------
+[PRISMSCALE]
+Name = きれいなウロコ
+NamePlural = きれいなウロコ
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 10
+Flags = Fling_30
+Description = ある とくていの ポケモンを しんかさせる ふしぎな ウロコ。にじいろに かがやいている。
+#-------------------------------
+[OVALSTONE]
+Name = まんまるいし
+NamePlural = まんまるいし
+Pocket = 1
+Price = 3000
+SellPrice = 500
+BPPrice = 5
+Flags = Fling_80
+Description = ある とくていの ポケモンを しんかさせる ふしぎな いし。 たまのように まるい。
+#-------------------------------
+[WHIPPEDDREAM]
+Name = ホイップポップ
+NamePlural = ホイップポップ
+PortionName = dollop of Whipped Dream
+PortionNamePlural = dollops of Whipped Dream
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+Flags = Fling_80
+Description = ふんわり ふわふわに あわだてた ほんのり あまい クリーム。ある ポケモンが このんでいる。
+#-------------------------------
+[SACHET]
+Name = においぶくろ
+NamePlural = においぶくろ
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+Flags = Fling_80
+Description = ちょっと きつめの かおりをだす こうりょうを つめた ふくろ。ある ポケモンが このんでいる。
+#-------------------------------
+[STRAWBERRYSWEET]
+Name = いちごアメざいく
+NamePlural = いちごアメざいく
+Pocket = 1
+Price = 500
+BPPrice = 5
+Flags = Fling_10
+Description = いちごの かたちを した アメざいく。 マホミルに もたせてあげると くるくる まわって よろこぶ。
+#-------------------------------
+[LOVESWEET]
+Name = ハートアメざいく
+NamePlural = ハートアメざいく
+Pocket = 1
+Price = 500
+BPPrice = 5
+Flags = Fling_10
+Description =  ハートの かたちを した アメざいく。 マホミルに もたせてあげると くるくる まわって よろこぶ。
+#-------------------------------
+[BERRYSWEET]
+Name = ベリーアメざいく
+NamePlural = ベリーアメざいく
+Pocket = 1
+Price = 500
+BPPrice = 5
+Flags = Fling_10
+Description = ベリーの かたちを した アメざいく。 マホミルに もたせてあげると くるくる まわって よろこぶ。
+#-------------------------------
+[CLOVERSWEET]
+Name = よつばアメざいく
+NamePlural = よつばアメざいく
+Pocket = 1
+Price = 500
+BPPrice = 5
+Flags = Fling_10
+Description =よつばの かたちを した アメざいく。 マホミルに もたせてあげると くるくる まわって よろこぶ。
+#-------------------------------
+[FLOWERSWEET]
+Name = おはなアメざいく
+NamePlural = おはなアメざいく
+Pocket = 1
+Price = 500
+BPPrice = 5
+Flags = Fling_10
+Description = おはなの かたちを した アメざいく。 マホミルに もたせてあげると くるくる まわって よろこぶ。
+#-------------------------------
+[STARSWEET]
+Name = スターアメざいく
+NamePlural = スターアメざいく
+Pocket = 1
+Price = 500
+BPPrice = 5
+Flags = Fling_10
+Description = スターの かたちを した アメざいく。 マホミルに もたせてあげると くるくる まわって よろこぶ。
+#-------------------------------
+[RIBBONSWEET]
+Name = リボンアメざいく
+NamePlural = リボンアメざいく
+Pocket = 1
+Price = 500
+BPPrice = 5
+Flags = Fling_10
+Description = リボンの かたちを した アメざいく。 マホミルに もたせてあげると くるくる まわって よろこぶ。
+#-------------------------------
+[VENUSAURITE]
+Name = フシギバナイト
+NamePlural = フシギバナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = フシギバナに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[CHARIZARDITEX]
+Name = リザードナイトX
+NamePlural = リザードナイトX
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = リザードンに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[CHARIZARDITEY]
+Name = リザードナイトY
+NamePlural = リザードナイトY
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = リザードンに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[BLASTOISINITE]
+Name = カメックスナイト
+NamePlural = カメックスナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = カメックスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[BEEDRILLITE]
+Name = スピアナイト
+NamePlural = スピアナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = スピアーに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[PIDGEOTITE]
+Name = ピジョットナイト
+NamePlural = ピジョットナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ピジョットに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[ALAKAZITE]
+Name = フーディナイト
+NamePlural = フーディナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = フーディンに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[SLOWBRONITE]
+Name = ヤドランナイト
+NamePlural = ヤドランナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ヤドランに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[GENGARITE]
+Name = ゲンガナイト
+NamePlural = ゲンガナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ゲンガーに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[KANGASKHANITE]
+Name = ガルーラナイト
+NamePlural = ガルーラナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ガルーラに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[PINSIRITE]
+Name = カイロスナイト
+NamePlural = カイロスナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = カイロスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[GYARADOSITE]
+Name = ギャラドスナイト
+NamePlural = ギャラドスナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ギャラドスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[AERODACTYLITE]
+Name = プテラナイト
+NamePlural = プテラナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = プテラに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[MEWTWONITEX]
+Name = ミュウツナイトX
+NamePlural = ミュウツナイトX
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ミュウツーに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[MEWTWONITEY]
+Name = ミュウツナイトY
+NamePlural = ミュウツナイトY
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ミュウツーに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[AMPHAROSITE]
+Name = デンリュウナイト
+NamePlural = デンリュウナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = デンリュウに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[STEELIXITE]
+Name = ハガネールナイト
+NamePlural = ハガネールナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ハガネールに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[SCIZORITE]
+Name = ハッサムナイト
+NamePlural = ハッサムナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ハッサムに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[HERACRONITE]
+Name = ヘラクロスナイト
+NamePlural = ヘラクロスナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ヘラクロスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[HOUNDOOMINITE]
+Name = ヘルガナイト
+NamePlural = ヘルガナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ヘルガーに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[TYRANITARITE]
+Name = バンギラスナイト
+NamePlural = バンギラスナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = バンギラスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[SCEPTILITE]
+Name = ジュカインナイト
+NamePlural = ジュカインナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ジュカインに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[BLAZIKENITE]
+Name = バシャーモナイト
+NamePlural = バシャーモナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = バシャーモに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[SWAMPERTITE]
+Name = ラグラージナイト
+NamePlural = ラグラージナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ラグラージに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[GARDEVOIRITE]
+Name = サーナイトナイト
+NamePlural = サーナイトナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = サーナイトに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[SABLENITE]
+Name = ヤミラミナイト
+NamePlural = ヤミラミナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ヤミラミに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[MAWILITE]
+Name = クチートナイト
+NamePlural = クチートナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = クチートに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[AGGRONITE]
+Name = ボスゴドラナイト
+NamePlural = ボスゴドラナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ボスゴドラに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[MEDICHAMITE]
+Name = チャーレムナイト
+NamePlural = チャーレムナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = チャーレムに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[MANECTITE]
+Name = ライボルトナイト
+NamePlural = ライボルトナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ライボルトに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[SHARPEDONITE]
+Name = サメハダナイト
+NamePlural = サメハダナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = サメハダーに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[CAMERUPTITE]
+Name = バクーダナイト
+NamePlural = バクーダナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = バクーダに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[ALTARIANITE]
+Name = チルタリスナイト
+NamePlural = チルタリスナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = チルタリスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[BANETTITE]
+Name = ジュペッタナイト
+NamePlural = ジュペッタナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ジュペッタに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[ABSOLITE]
+Name = アブソルナイト
+NamePlural = アブソルナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = アブソルに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[GLALITITE]
+Name = オニゴーリナイト
+NamePlural = オニゴーリナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = オニゴーリに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[SALAMENCITE]
+Name = ボーマンダナイト
+NamePlural = ボーマンダナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ボーマンダに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[METAGROSSITE]
+Name = メタグロスナイト
+NamePlural = メタグロスナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = メタグロスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[LATIASITE]
+Name = ラティアスナイト
+NamePlural = ラティアスナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ラティアスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[LATIOSITE]
+Name = ラティオスナイト
+NamePlural = ラティオスナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ラティオスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[LOPUNNITE]
+Name = ミミロップナイト
+NamePlural = ミミロップナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ミミロップに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[GARCHOMPITE]
+Name = ガブリアスナイト
+NamePlural = ガブリアスナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ガブリアスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[LUCARIONITE]
+Name = ルカリオナイト
+NamePlural = ルカリオナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ルカリオに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[ABOMASITE]
+Name = ユキノオナイト
+NamePlural = ユキノオナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ユキノオーに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[GALLADITE]
+Name = エルレイドナイト
+NamePlural = エルレイドナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = エルレイドに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[AUDINITE]
+Name = タブンネナイト
+NamePlural = タブンネナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = タブンネに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[DIANCITE]
+Name = ディアンシナイト
+NamePlural = ディアンシナイト
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = ディアンシーに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+#-------------------------------
+[REDORB]
+Name = べにいろのたま
+NamePlural = べにいろのたま
+Pocket = 1
+Price = 10000
+SellPrice = 0
+BPPrice = 50
+Description = ホウエンちほうの でんせつと ふかい かかわりが あると いわれる あかく かがやく たま。
+#-------------------------------
+[BLUEORB]
+Name = あいいろのたま
+NamePlural = あいいろのたま
+Pocket = 1
+Price = 10000
+SellPrice = 0
+BPPrice = 50
+Description = ホウエンちほうの でんせつと ふかい かかわりが あると いわれる あおく かがやく たま。
+#-------------------------------
+[POTION]
+Name = キズぐすり
+NamePlural = キズぐすり
+Pocket = 2
+Price = 200
+SellPrice = 50
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = スプレーしきの きずぐすり。 ポケモン 1ひきの HPを 20だけ かいふくする。
+LauncherPoints = 2
+#-------------------------------
+[SUPERPOTION]
+Name = いいキズぐすり
+NamePlural = いいキズぐすり
+Pocket = 2
+Price = 700
+SellPrice = 175
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = スプレーしきの キズぐすり。ポケモン 1ひきの HPを 60だけ かいふくする。
+LauncherPoints = 4
+#-------------------------------
+[HYPERPOTION]
+Name = すごいキズぐすり
+NamePlural = すごいキズぐすり
+Pocket = 2
+Price = 1500
+SellPrice = 375
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = スプレーしきの キズぐすり。 ポケモン 1ひきの HPを 120だけ かいふくする。
+LauncherPoints = 8
+#-------------------------------
+[MAXPOTION]
+Name = まんたんのくすり
+NamePlural = まんたんのくすり
+Pocket = 2
+Price = 2500
+SellPrice = 625
+BPPrice = 2
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = スプレーしきの キズぐすり。ポケモン 1ひきの HPを すべて かいふくする。
+LauncherPoints = 10
+#-------------------------------
+[FULLRESTORE]
+Name = かいふくのくすり
+NamePlural = かいふくのくすり
+Pocket = 2
+Price = 3000
+SellPrice = 750
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = ポケモン 1ひきの HPと じょうたい いじょうを すべて かいふくする。
+LauncherPoints = 13
+#-------------------------------
+[SACREDASH]
+Name = せいなるはい
+NamePlural = せいなるはい
+PortionName = bag of Sacred Ash
+PortionNamePlural = bags of Sacred Ash
+Pocket = 2
+Price = 50000
+FieldUse = Direct
+Flags = Fling_30
+Description = ひんしに なってしまった ポケモン ぜんいんの HPを すべて かいふくする。
+#-------------------------------
+[AWAKENING]
+Name = ねむけざまし
+NamePlural = ねむけざまし
+Pocket = 2
+Price = 200
+SellPrice = 50
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = スプレーしきの くすり。 ポケモン 1ひきの ねむりの じょうたいを かいふくする。
+LauncherPoints = 4
+#-------------------------------
+[ANTIDOTE]
+Name = どくけし
+NamePlural = どくけし
+Pocket = 2
+Price = 200
+SellPrice = 50
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = スプレーしきの くすり。 ポケモン 1ひきの どくの じょうたいを かいふくする。
+LauncherPoints = 4
+#-------------------------------
+[BURNHEAL]
+Name = やけどなおし
+NamePlural = やけどなおし
+Pocket = 2
+Price = 200
+SellPrice = 50
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = スプレーしきの くすり。 ポケモン 1ひきの やけどの じょうたいを かいふくする。
+LauncherPoints = 4
+#-------------------------------
+[PARALYZEHEAL]
+Name = まひなおし
+NamePlural = まひなおし
+Pocket = 2
+Price = 200
+SellPrice = 50
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = スプレーしきの くすり。 ポケモン 1ひきの まひの じょうたいを かいふくする。
+LauncherPoints = 4
+#-------------------------------
+[ICEHEAL]
+Name = こおりなおし
+NamePlural = こおりなおし
+Pocket = 2
+Price = 200
+SellPrice = 50
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = スプレーしきの くすり。ポケモン 1ひきの こおりの じょうたいを かいふくする。
+LauncherPoints = 4
+#-------------------------------
+[FULLHEAL]
+Name = なんでもなおし
+NamePlural = なんでもなおし
+Pocket = 2
+Price = 400
+SellPrice = 100
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = スプレーしきの くすり。 ポケモン 1ひきの じょうたいの いじょうを すべて かいふくする。
+LauncherPoints = 5
+#-------------------------------
+[RAGECANDYBAR]
+Name = いかりまんじゅう
+NamePlural = いかりまんじゅう
+Pocket = 2
+Price = 350
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = チョウジめいぶつの まんじゅう。 ポケモン 1ひきの じょうたいの いじょうを すべて かいふくする。
+#-------------------------------
+[LAVACOOKIE]
+Name = フエンせんべい
+NamePlural = フエンせんべい
+Pocket = 2
+Price = 350
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = フエンめいぶつの せんべい。ポケモン 1ひきの じょうたいの いじょうを すべて かいふくする。
+#-------------------------------
+[OLDGATEAU]
+Name = もりのヨウカン
+NamePlural = もりのヨウカン
+Pocket = 2
+Price = 350
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = ハクタイの かくれた めいぶつ。 ポケモン 1ひきの じょうたいの いじょうを すべて かいふくする。
+#-------------------------------
+[CASTELIACONE]
+Name = ヒウンアイス
+NamePlural = ヒウンアイス
+Pocket = 2
+Price = 350
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = ヒウンシティの めいぶつアイス。 ポケモン 1ひきの じょうたいの いじょうを すべて かいふくする。
+#-------------------------------
+[REVIVE]
+Name = げんきのかけら
+NamePlural = げんきのかけら
+Pocket = 2
+Price = 2000
+SellPrice = 500
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = ひんしに なった ポケモン 1ひきを げんきに したうえで HPを はんぶんまで かいふくする。
+LauncherPoints = 11
+#-------------------------------
+[MAXREVIVE]
+Name = げんきのかたまり
+NamePlural = げんきのかたまり
+Pocket = 2
+Price = 2000
+BPPrice = 20
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = ひんしに なった ポケモン 1ひきを げんきに したうえで HPを すべて かいふくする。
+LauncherPoints = 14
+#-------------------------------
+[BERRYJUICE]
+Name = きのみジュース
+NamePlural = きのみジュース
+PortionName = cup of Berry Juice
+PortionNamePlural = cups of Berry Juice
+Pocket = 2
+Price = 100
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = きのみ 100％の ジュース。 ポケモン 1ひきの HPを 20だけ かいふくする。
+#-------------------------------
+[SWEETHEART]
+Name = ハートスイーツ
+NamePlural = ハートスイーツ
+Pocket = 2
+Price = 3000
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = とても あまったるい チョコレート。 ポケモン 1ひきの HPを 20だけ かいふくする。
+#-------------------------------
+[FRESHWATER]
+Name = おいしいみず
+NamePlural = おいしいみず
+PortionName = bottle of Fresh Water
+PortionNamePlural = bottles of Fresh Water
+Pocket = 2
+Price = 200
+SellPrice = 50
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = ミネラル たっぷりの みず。 ポケモン 1ひきの HPを 30だけ かいふくする。
+#-------------------------------
+[SODAPOP]
+Name = サイコソーダ
+NamePlural = サイコソーダ
+PortionName = bottle of Soda Pop
+PortionNamePlural = bottles of Soda Pop
+Pocket = 2
+Price = 300
+SellPrice = 75
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = シュワっと はじける ソーダ。 ポケモン 1ひきの HPを 50だけ かいふくする。
+#-------------------------------
+[LEMONADE]
+Name = ミックスオレ
+NamePlural = ミックスオレ
+PortionName = can of Lemonade
+PortionNamePlural = cans of Lemonade
+Pocket = 2
+Price = 350
+SellPrice = 100
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = とても あまい ジュース。 ポケモン 1ひきの HPを 70だけ かいふくする。
+#-------------------------------
+[MOOMOOMILK]
+Name = モーモーミルク
+NamePlural = モーモーミルク
+PortionName = bottle of Moomoo Milk
+PortionNamePlural = bottles of Moomoo Milk
+Pocket = 2
+Price = 600
+SellPrice = 150
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = えいよう まんてんの ミルク。 ポケモン 1ひきの HPを 100だけ かいふくする。
+#-------------------------------
+[ENERGYPOWDER]
+Name = ちからのこな
+NamePlural = ちからのこな
+PortionName = dose of Energy Powder
+PortionNamePlural = doses of Energy Powder
+Pocket = 2
+Price = 500
+SellPrice = 125
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = とても にがい こなぐすり。 ポケモン 1ひきの HPを 60だけ かいふくする。
+#-------------------------------
+[ENERGYROOT]
+Name = ちからのねっこ
+NamePlural = ちからのねっこ
+Pocket = 2
+Price = 1200
+SellPrice = 300
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = とても にがい ねっこ。 ポケモン 1ひきの HPを 120だけ かいふくする。
+#-------------------------------
+[HEALPOWDER]
+Name = ばんのうごな
+NamePlural = ばんのうごな
+PortionName = dose of Heal Powder
+PortionNamePlural = doses of Heal Powder
+Pocket = 2
+Price = 300
+SellPrice = 75
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = とても にがい こなぐすり。 ポケモン 1ひきの じょうたいの いじょうを すべて かいふくする。
+#-------------------------------
+[REVIVALHERB]
+Name = ふっかつそう
+NamePlural = ふっかつそう
+Pocket = 2
+Price = 2800
+SellPrice = 700
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = とても にがい やくそう。 ひんしの ポケモン 1ひきの HPを すべて かいふくする。
+#-------------------------------
+[ETHER]
+Name = ピーピーエイド
+NamePlural = ピーピーエイド
+Pocket = 2
+Price = 600
+BPPrice = 4
+FieldUse = OnPokemon
+BattleUse = OnMove
+Flags = Fling_30
+Description = ポケモンが おぼえている わざのうち 1つの PPを 10だけ かいふくする。
+LauncherPoints = 4
+#-------------------------------
+[MAXETHER]
+Name = ピーピーリカバー
+NamePlural = ピーピーリカバー
+Pocket = 2
+Price = 1000
+FieldUse = OnPokemon
+BattleUse = OnMove
+Flags = Fling_30
+Description = ポケモンが おぼえている わざのうち 1つの PPを すべて かいふくする。
+LauncherPoints = 6
+#-------------------------------
+[ELIXIR]
+Name = ピーピーエイダー
+NamePlural = ピーピーエイダー
+Pocket = 2
+Price = 1500
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = ポケモンが おぼえている 4つの わざの PPを 10ずつ かいふくする。
+LauncherPoints = 8
+#-------------------------------
+[MAXELIXIR]
+Name = ピーピーマックス
+NamePlural = ピーピーマックス
+Pocket = 2
+Price = 2250
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = ポケモンが おぼえている 4つの わざの PPを すべて かいふくする。
+LauncherPoints = 10
+#-------------------------------
+[PPUP]
+Name = ポイントアップ
+NamePlural = ポイントアップ
+PortionName = bottle of PP Up
+PortionNamePlural = bottles of PP Up
+Pocket = 2
+Price = 10000
+SellPrice = 2500
+BPPrice = 10
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = ポケモンが おぼえている わざのうち 1つの PPの さいだいちを すこし あげる。
+#-------------------------------
+[PPMAX]
+Name = ポイントマックス
+NamePlural = ポイントマックス
+PortionName = bottle of PP Max
+PortionNamePlural = bottles of PP Max
+Pocket = 2
+Price = 10000
+SellPrice = 2500
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = おぼえている わざのうち 1つの PPの さいだいちを さいこうまで あげる。
+#-------------------------------
+[HPUP]
+Name = マックスアップ
+NamePlural = マックスアップ
+PortionName = bottle of HP Up
+PortionNamePlural = bottles of HP Up
+Pocket = 2
+Price = 10000
+SellPrice = 2500
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = ポケモンの えいようドリンク。ポケモン 1ひきの ＨＰの きそポイントを あげる。
+#-------------------------------
+[PROTEIN]
+Name = タウリン
+NamePlural = タウリン
+PortionName = bottle of Protein
+PortionNamePlural = bottles of Protein
+Pocket = 2
+Price = 10000
+SellPrice = 2500
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = ポケモンの えいようドリンク。ポケモン 1ひきの こうげきの きそポイントを あげる。
+#-------------------------------
+[IRON]
+Name = ブロムヘキシン
+NamePlural = ブロムヘキシン
+PortionName = bottle of Iron
+PortionNamePlural = bottles of Iron
+Pocket = 2
+Price = 10000
+SellPrice = 2500
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = ポケモンの えいようドリンク。ポケモン 1ひきの ぼうぎょの きそポイントを あげる。
+#-------------------------------
+[CALCIUM]
+Name = リゾチウム
+NamePlural = リゾチウム
+PortionName = bottle of Calcium
+PortionNamePlural = bottles of Calcium
+Pocket = 2
+Price = 10000
+SellPrice = 2500
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = ポケモンの えいようドリンク。ポケモン 1ひきの とくこうの きそポイントを あげる。
+#-------------------------------
+[ZINC]
+Name = キトサン
+NamePlural = キトサン
+PortionName = bottle of Zinc
+PortionNamePlural = bottles of Zinc
+Pocket = 2
+Price = 10000
+SellPrice = 2500
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = ポケモンの えいようドリンク。ポケモン 1ひきの とくぼうの きそポイントを あげる。
+#-------------------------------
+[CARBOS]
+Name = インドメタシン
+NamePlural = インドメタシン
+PortionName = bottle of Carbos
+PortionNamePlural = bottles of Carbos
+Pocket = 2
+Price = 10000
+SellPrice = 2500
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = ポケモンの えいようドリンク。ポケモン 1ひきの すばやさの きそポイントを あげる。
+#-------------------------------
+[RARECANDY]
+Name = ふしぎなアメ
+NamePlural = ふしぎなアメ
+Pocket = 2
+Price = 5000
+BPPrice = 20
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = エネルギーの つまった アメ。 あたえると ポケモン 1ひきの レベルが 1だけ あがる。
+#-------------------------------
+[MASTERBALL]
+Name = マスターボール
+NamePlural = マスターボール
+Pocket = 3
+Price = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = やせいの ポケモンを かならず つかまえることが できる さいこう せいのうの ボール。
+#-------------------------------
+[ULTRABALL]
+Name = ハイパーボール
+NamePlural = ハイパーボール
+Pocket = 3
+Price = 800
+SellPrice = 200
+BattleUse = OnFoe
+Flags = PokeBall
+Description = スーパーボールよりも さらに ポケモンを つかまえやすくなった すごく せいのうのいい ボール。
+#-------------------------------
+[GREATBALL]
+Name = スーパーボール
+NamePlural = スーパーボール
+Pocket = 3
+Price = 600
+SellPrice = 150
+BattleUse = OnFoe
+Flags = PokeBall
+Description = モンスターボールよりも さらに ポケモンを つかまえやすくなった すこし せいのうのいい ボール。
+#-------------------------------
+[POKEBALL]
+Name = モンスターボール
+NamePlural = モンスターボール
+Pocket = 3
+Price = 200
+SellPrice = 50
+BattleUse = OnFoe
+Flags = PokeBall
+Description = やせいの ポケモンに なげて つかまえる ための ボール。カプセルしきに なっている。
+#-------------------------------
+[SAFARIBALL]
+Name = サファリボール
+NamePlural = サファリボール
+Pocket = 3
+Price = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = カントーちほうの サファリゾーンや シンオウちほうの だいしつげんで つかう とくべつな ボール。めいさいがらに なっている。
+#-------------------------------
+[SPORTBALL]
+Name = コンペボール
+NamePlural = コンペボール
+Pocket = 3
+Price = 300
+BattleUse = OnFoe
+Flags = PokeBall
+Description = むしとりたいかいの なかで つかう とくべつな ボール。
+#-------------------------------
+[NETBALL]
+Name = ネットボール
+NamePlural = ネットボール
+Pocket = 3
+Price = 1000
+SellPrice = 250
+BattleUse = OnFoe
+Flags = PokeBall
+Description = みずタイプと むしタイプの ポケモンが つかまえやすくなる ちょっと かわった ボール。
+#-------------------------------
+[DIVEBALL]
+Name = ダイブボール
+NamePlural = ダイブボール
+Pocket = 3
+Price = 1000
+SellPrice = 250
+BattleUse = OnFoe
+Flags = PokeBall
+Description = みずの せかいで くらしている ポケモンが つかまえやすくなる ちょっと かわった ボール。
+#-------------------------------
+[NESTBALL]
+Name = ネストボール
+NamePlural = ネストボール
+Pocket = 3
+Price = 1000
+SellPrice = 250
+BattleUse = OnFoe
+Flags = PokeBall
+Description = つかまえる やせいの ポケモンが よわいほど つかまえやすくなる ちょっと かわった ボール。
+#-------------------------------
+[REPEATBALL]
+Name = リピートボール
+NamePlural = リピートボール
+Pocket = 3
+Price = 1000
+SellPrice = 250
+BattleUse = OnFoe
+Flags = PokeBall
+Description = つかまえたことの ある ポケモンが つかまえやすくなる ちょっと かわった ボール。
+#-------------------------------
+[TIMERBALL]
+Name = タイマーボール
+NamePlural = タイマーボール
+Pocket = 3
+Price = 1000
+SellPrice = 250
+BattleUse = OnFoe
+Flags = PokeBall
+Description = ターンすうが かかれば かかるほど ポケモンが つかまえやすくなる ちょっと かわった ボール。
+#-------------------------------
+[LUXURYBALL]
+Name = ゴージャスボール
+NamePlural = ゴージャスボール
+Pocket = 3
+Price = 3000
+SellPrice = 750
+BattleUse = OnFoe
+Flags = PokeBall
+Description = つかまえた やせいポケモンが とても なかよく なりやすくなる いごこちの いい ボール。
+#-------------------------------
+[PREMIERBALL]
+Name = プレミアボール
+NamePlural = プレミアボール
+Pocket = 3
+Price = 200
+SellPrice = 5
+BattleUse = OnFoe
+Flags = PokeBall
+Description = なにかの きねんの しなとして とくべつに つくられた ちょっと めずらしい ボール。
+#-------------------------------
+[DUSKBALL]
+Name = ダークボール
+NamePlural = ダークボール
+Pocket = 3
+Price = 1000
+SellPrice = 250
+BattleUse = OnFoe
+Flags = PokeBall
+Description = よるや どうくつなど くらいところで ポケモンが つかまえやすくなる ちょっと かわった ボール。
+#-------------------------------
+[HEALBALL]
+Name = ヒールボール
+NamePlural = ヒールボール
+Pocket = 3
+Price = 300
+SellPrice = 75
+BattleUse = OnFoe
+Flags = PokeBall
+Description = つかまえた ポケモンの HPと じょうたい いじょうを かいふくする ちょっと やさしい ボール。
+#-------------------------------
+[QUICKBALL]
+Name = クイックボール
+NamePlural = クイックボール
+Pocket = 3
+Price = 1000
+SellPrice = 250
+BattleUse = OnFoe
+Flags = PokeBall
+Description = せんとうが はじまって すぐに つかうと つかまえやすくなる ちょっと かわった ボール。
+#-------------------------------
+[CHERISHBALL]
+Name = プレシャスボール
+NamePlural = プレシャスボール
+Pocket = 3
+Price = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = なにかの きねんの しなとして とくべつに つくられた かなり めずらしい ボール。
+#-------------------------------
+[FASTBALL]
+Name = スピードボール
+NamePlural = スピードボール
+Pocket = 3
+Price = 300
+BattleUse = OnFoe
+Flags = PokeBall
+Description = にげあしの はやい ポケモンが つかまえやすくなる ちょっと かわった ボール。
+#-------------------------------
+[LEVELBALL]
+Name = レベルボール
+NamePlural = レベルボール
+Pocket = 3
+Price = 300
+BattleUse = OnFoe
+Flags = PokeBall
+Description = じぶんの ポケモンより レベルが ひくいほど つかまえやすくなる ちょっと かわった ボール。
+#-------------------------------
+[LUREBALL]
+Name = ルアーボール
+NamePlural = ルアーボール
+Pocket = 3
+Price = 300
+BattleUse = OnFoe
+Flags = PokeBall
+Description = つりざおで つりあげた ポケモンだと つかまえやすくなる ちょっと かわった ボール。
+#-------------------------------
+[HEAVYBALL]
+Name = ヘビーボール
+NamePlural = ヘビーボール
+Pocket = 3
+Price = 300
+BattleUse = OnFoe
+Flags = PokeBall
+Description = たいじゅうの おもい ポケモンが つかまえやすくなる ちょっと かわった ボール。
+#-------------------------------
+[LOVEBALL]
+Name = ラブラブボール
+NamePlural = ラブラブボール
+Pocket = 3
+Price = 300
+BattleUse = OnFoe
+Flags = PokeBall
+Description = じぶんの ポケモンと せいべつが ちがうと つかまえやすくなる ちょっと かわった ボール。
+#-------------------------------
+[FRIENDBALL]
+Name = フレンドボール
+NamePlural = フレンドボール
+Pocket = 3
+Price = 300
+BattleUse = OnFoe
+Flags = PokeBall
+Description = つかまえた やせいポケモンが すぐに なついて くれる ちょっと かわった ボール。
+#-------------------------------
+[MOONBALL]
+Name = ムーンボール
+NamePlural = ムーンボール
+Pocket = 3
+Price = 300
+BattleUse = OnFoe
+Flags = PokeBall
+Description = つきのいしで しんかする ポケモンが つかまえやすくなる ちょっと かわった ボール。
+#-------------------------------
+[TM01]
+Name = わざマシン01
+NamePlural = TM01s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_150
+Move = FOCUSPUNCH
+Description = The user focuses its mind before launching a punch. This move fails if the user is hit before it is used.
+#-------------------------------
+[TM02]
+Name = わざマシン02
+NamePlural = TM02s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_80
+Move = DRAGONCLAW
+Description = The user slashes the target with huge sharp claws.
+#-------------------------------
+[TM03]
+Name = わざマシン03
+NamePlural = TM03s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_60
+Move = WATERPULSE
+Description = The user attacks the target with a pulsing blast of water. This may also confuse the target.
+#-------------------------------
+[TM04]
+Name = わざマシン04
+NamePlural = TM04s
+Pocket = 4
+Price = 1500
+BPPrice = 48
+FieldUse = TR
+Flags = Fling_10
+Move = CALMMIND
+Description = The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.
+#-------------------------------
+[TM05]
+Name = わざマシン05
+NamePlural = TM05s
+Pocket = 4
+Price = 1000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = ROAR
+Description = The target is scared off, and a different Pokémon is dragged out. In the wild, this ends the battle.
+#-------------------------------
+[TM06]
+Name = わざマシン06
+NamePlural = TM06s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = TOXIC
+Description = A move that leaves the target badly poisoned. Its poison damage worsens every turn.
+#-------------------------------
+[TM07]
+Name = わざマシン07
+NamePlural = TM07s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = HAIL
+Description = The user summons a hailstorm lasting five turns. It damages all Pokémon except Ice types.
+#-------------------------------
+[TM08]
+Name = わざマシン08
+NamePlural = TM08s
+Pocket = 4
+Price = 1500
+BPPrice = 48
+FieldUse = TR
+Flags = Fling_10
+Move = BULKUP
+Description = The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.
+#-------------------------------
+[TM09]
+Name = わざマシン09
+NamePlural = TM09s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_25
+Move = BULLETSEED
+Description = The user forcefully shoots seeds at the target two to five times in a row.
+#-------------------------------
+[TM10]
+Name = わざマシン10
+NamePlural = TM10s
+Pocket = 4
+Price = 1500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = WORKUP
+Description = The user is roused, and its Attack and Sp. Atk stats increase.
+#-------------------------------
+[TM11]
+Name = わざマシン11
+NamePlural = TM11s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = SUNNYDAY
+Description = The user intensifies the sun for five turns, powering up Fire-type moves and weakening Water-type moves.
+#-------------------------------
+[TM12]
+Name = わざマシン12
+NamePlural = TM12s
+Pocket = 4
+Price = 1500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = TAUNT
+Description = The target is taunted into a rage that allows it to use only attack moves for three turns.
+#-------------------------------
+[TM13]
+Name = わざマシン13
+NamePlural = TM13s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_90
+Move = ICEBEAM
+Description = The target is struck with an icy-cold beam of energy. This may also leave the target frozen.
+#-------------------------------
+[TM14]
+Name = わざマシン14
+NamePlural = TM14s
+Pocket = 4
+Price = 5500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_110
+Move = BLIZZARD
+Description = A howling blizzard is summoned to strike opposing Pokémon. This may also leave them frozen.
+#-------------------------------
+[TM15]
+Name = わざマシン15
+NamePlural = TM15s
+Pocket = 4
+Price = 7500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_150
+Move = HYPERBEAM
+Description = The target is attacked with a powerful beam. The user can't move on the next turn.
+#-------------------------------
+[TM16]
+Name = わざマシン16
+NamePlural = TM16s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = LIGHTSCREEN
+Description = A wondrous wall of light is put up to reduce damage from special attacks for five turns.
+#-------------------------------
+[TM17]
+Name = わざマシン17
+NamePlural = TM17s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = PROTECT
+Description = The user protects itself from all attacks. Its chance of failing rises if it is used in succession.
+#-------------------------------
+[TM18]
+Name = わざマシン18
+NamePlural = TM18s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = RAINDANCE
+Description = The user summons a heavy rain for five turns, powering up Water-type moves and weakening Fire-type ones.
+#-------------------------------
+[TM19]
+Name = わざマシン19
+NamePlural = TM19s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_75
+Move = GIGADRAIN
+Description = A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+#-------------------------------
+[TM20]
+Name = わざマシン20
+NamePlural = TM20s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = SAFEGUARD
+Description = The user creates a protective field that prevents status conditions for five turns.
+#-------------------------------
+[TM21]
+Name = わざマシン21
+NamePlural = TM21s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_80
+Move = DAZZLINGGLEAM
+Description = The user damages opposing Pokémon by emitting a powerful flash.
+#-------------------------------
+[TM22]
+Name = わざマシン22
+NamePlural = TM22s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_120
+Move = SOLARBEAM
+Description = In this two-turn attack, the user gathers light, then blasts a bundled beam on the next turn.
+#-------------------------------
+[TM23]
+Name = わざマシン23
+NamePlural = TM23s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_100
+Move = IRONTAIL
+Description = The target is slammed with a steel-hard tail. This may also lower the target's Defense stat.
+#-------------------------------
+[TM24]
+Name = わざマシン24
+NamePlural = TM24s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_90
+Move = THUNDERBOLT
+Description = A strong electric blast crashes down on the target. This may also leave the target with paralysis.
+#-------------------------------
+[TM25]
+Name = わざマシン25
+NamePlural = TM25s
+Pocket = 4
+Price = 5500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_110
+Move = THUNDER
+Description = A wicked thunderbolt is dropped on the target to inflict damage. This may also leave them with paralysis.
+#-------------------------------
+[TM26]
+Name = わざマシン26
+NamePlural = TM26s
+Pocket = 4
+Price = 3000
+BPPrice = 80
+FieldUse = TR
+Flags = Fling_100
+Move = EARTHQUAKE
+Description = The user sets off an earthquake that strikes every Pokémon around it.
+#-------------------------------
+[TM27]
+Name = わざマシン27
+NamePlural = TM27s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_65
+Move = LOWSWEEP
+Description = The user makes a swift attack on the target's legs, which lowers the target's Speed stat.
+#-------------------------------
+[TM28]
+Name = わざマシン28
+NamePlural = TM28s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_80
+Move = DIG
+Description = The user burrows into the ground, then attacks on the next turn. It can also be used to exit dungeons.
+#-------------------------------
+[TM29]
+Name = わざマシン29
+NamePlural = TM29s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_90
+Move = PSYCHIC
+Description = The target is hit by a strong telekinetic force. This may also lower the target's Sp. Def stat.
+#-------------------------------
+[TM30]
+Name = わざマシン30
+NamePlural = TM30s
+Pocket = 4
+Price = 3000
+BPPrice = 64
+FieldUse = TR
+Flags = Fling_80
+Move = SHADOWBALL
+Description = The user hurls a shadowy blob at the target. This may also lower the target's Sp. Def stat.
+#-------------------------------
+[TM31]
+Name = わざマシン31
+NamePlural = TM31s
+Pocket = 4
+Price = 3000
+BPPrice = 40
+FieldUse = TR
+Flags = Fling_75
+Move = BRICKBREAK
+Description = The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.
+#-------------------------------
+[TM32]
+Name = わざマシン32
+NamePlural = TM32s
+Pocket = 4
+Price = 1000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = DOUBLETEAM
+Description = By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.
+#-------------------------------
+[TM33]
+Name = わざマシン33
+NamePlural = TM33s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = REFLECT
+Description = A wondrous wall of light is put up to reduce damage from physical attacks for five turns.
+#-------------------------------
+[TM34]
+Name = わざマシン34
+NamePlural = TM34s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_60
+Move = SHOCKWAVE
+Description = The user strikes the target with a quick jolt of electricity. This attack never misses.
+#-------------------------------
+[TM35]
+Name = わざマシン35
+NamePlural = TM35s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_90
+Move = FLAMETHROWER
+Description = The target is scorched with an intense blast of fire. This may also leave the target with a burn.
+#-------------------------------
+[TM36]
+Name = わざマシン36
+NamePlural = TM36s
+Pocket = 4
+Price = 3000
+BPPrice = 80
+FieldUse = TR
+Flags = Fling_90
+Move = SLUDGEBOMB
+Description = Unsanitary sludge is hurled at the target. This may also poison the target.
+#-------------------------------
+[TM37]
+Name = わざマシン37
+NamePlural = TM37s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = SANDSTORM
+Description = A five-turn sandstorm is summoned to hurt all combatants except Rock, Ground, and Steel types.
+#-------------------------------
+[TM38]
+Name = わざマシン38
+NamePlural = TM38s
+Pocket = 4
+Price = 5500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_110
+Move = FIREBLAST
+Description = The target is attacked with an intense blast of all-consuming fire. This may also leave them with a burn.
+#-------------------------------
+[TM39]
+Name = わざマシン39
+NamePlural = TM39s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_60
+Move = ROCKTOMB
+Description = Boulders are hurled at the target. This also lowers the target's Speed stat by preventing its movement.
+#-------------------------------
+[TM40]
+Name = わざマシン40
+NamePlural = TM40s
+Pocket = 4
+Price = 3000
+BPPrice = 40
+FieldUse = TR
+Flags = Fling_60
+Move = AERIALACE
+Description = The user confounds the target with speed, then slashes. This attack never misses.
+#-------------------------------
+[TM41]
+Name = わざマシン41
+NamePlural = TM41s
+Pocket = 4
+Price = 1500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = TORMENT
+Description = The user torments and enrages the target, making it incapable of using the same move twice in a row.
+#-------------------------------
+[TM42]
+Name = わざマシン42
+NamePlural = TM42s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_70
+Move = FACADE
+Description = This attack move doubles its power if the user is poisoned, burned, or paralyzed.
+#-------------------------------
+[TM43]
+Name = わざマシン43
+NamePlural = TM43s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_70
+Move = VOLTSWITCH
+Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+#-------------------------------
+[TM44]
+Name = わざマシン44
+NamePlural = TM44s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = REST
+Description = The user goes to sleep for two turns. This fully restores the user's HP and heals any status conditions.
+#-------------------------------
+[TM45]
+Name = わざマシン45
+NamePlural = TM45s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = ATTRACT
+Description = If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.
+#-------------------------------
+[TM46]
+Name = わざマシン46
+NamePlural = TM46s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_60
+Move = THIEF
+Description = The user attacks and steals the target's held item simultaneously.
+#-------------------------------
+[TM47]
+Name = わざマシン47
+NamePlural = TM47s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_70
+Move = STEELWING
+Description = The target is hit with wings of steel. This may also raise the user's Defense stat.
+#-------------------------------
+[TM48]
+Name = わざマシン48
+NamePlural = TM48s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = SKILLSWAP
+Description = The user employs its psychic power to exchange Abilities with the target.
+#-------------------------------
+[TM49]
+Name = わざマシン49
+NamePlural = TM49s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_80
+Move = SCALD
+Description = The user shoots boiling hot water at its target. This may also leave the target with a burn.
+#-------------------------------
+[TM50]
+Name = わざマシン50
+NamePlural = TM50s
+Pocket = 4
+Price = 5500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_130
+Move = OVERHEAT
+Description = The user attacks the target at full power. The attack's recoil harshly lowers the user's Sp. Atk stat.
+#-------------------------------
+[TM51]
+Name = わざマシン51
+NamePlural = TM51s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = ROOST
+Description = The user lands and rests its body. This move restores the user's HP by up to half of its max HP.
+#-------------------------------
+[TM52]
+Name = わざマシン52
+NamePlural = TM52s
+Pocket = 4
+Price = 5500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_120
+Move = FOCUSBLAST
+Description = The user heightens its mental focus and unleashes its power. This may also lower the target's Sp. Def stat.
+#-------------------------------
+[TM53]
+Name = わざマシン53
+NamePlural = TM53s
+Pocket = 4
+Price = 3000
+BPPrice = 64
+FieldUse = TR
+Flags = Fling_90
+Move = ENERGYBALL
+Description = The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.
+#-------------------------------
+[TM54]
+Name = わざマシン54
+NamePlural = TM54s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_40
+Move = FALSESWIPE
+Description = A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.
+#-------------------------------
+[TM55]
+Name = わざマシン55
+NamePlural = TM55s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_65
+Move = BRINE
+Description = If the target's HP is half or less, this attack will hit with double the power.
+#-------------------------------
+[TM56]
+Name = わざマシン56
+NamePlural = TM56s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = FLING
+Description = The user flings its held item at the target to attack. This move's power and effects depend on the item.
+#-------------------------------
+[TM57]
+Name = わざマシン57
+NamePlural = TM57s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_50
+Move = CHARGEBEAM
+Description = The user attacks the target with an electric charge. The user may use any remaining charge to raise its Sp. Atk.
+#-------------------------------
+[TM58]
+Name = わざマシン58
+NamePlural = TM58s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = ENDURE
+Description = The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.
+#-------------------------------
+[TM59]
+Name = わざマシン59
+NamePlural = TM59s
+Pocket = 4
+Price = 3000
+BPPrice = 80
+FieldUse = TR
+Flags = Fling_85
+Move = DRAGONPULSE
+Description = The target is attacked with a shock wave generated by the user's gaping mouth.
+#-------------------------------
+[TM60]
+Name = わざマシン60
+NamePlural = TM60s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_75
+Move = DRAINPUNCH
+Description = An energy-draining punch. The user's HP is restored by half the damage taken by the target.
+#-------------------------------
+[TM61]
+Name = わざマシン61
+NamePlural = TM61s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = WILLOWISP
+Description = The user shoots a sinister flame at the target to inflict a burn.
+#-------------------------------
+[TM62]
+Name = わざマシン62
+NamePlural = TM62s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_90
+Move = BUGBUZZ
+Description = The user generates a damaging sound wave by vibration. This may also lower the target's Sp. Def stat.
+#-------------------------------
+[TM63]
+Name = わざマシン63
+NamePlural = TM63s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = NASTYPLOT
+Description = The user stimulates its brain by thinking bad thoughts. This sharply raises the user's Sp. Atk stat.
+#-------------------------------
+[TM64]
+Name = わざマシン64
+NamePlural = TM64s
+Pocket = 4
+Price = 7500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_250
+Move = EXPLOSION
+Description = The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.
+#-------------------------------
+[TM65]
+Name = わざマシン65
+NamePlural = TM65s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_70
+Move = SHADOWCLAW
+Description = The user slashes with a sharp claw made from shadows. Critical hits land more easily.
+#-------------------------------
+[TM66]
+Name = わざマシン66
+NamePlural = TM66s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_50
+Move = PAYBACK
+Description = The user stores power, then attacks. If the user moves after the target, this attack's power will be doubled.
+#-------------------------------
+[TM67]
+Name = わざマシン67
+NamePlural = TM67s
+Pocket = 4
+Price = 1000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = RECYCLE
+Description = The user recycles a held item that has been used in battle so it can be used again.
+#-------------------------------
+[TM68]
+Name = わざマシン68
+NamePlural = TM68s
+Pocket = 4
+Price = 7500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_150
+Move = GIGAIMPACT
+Description = The user charges at the target using every bit of its power. The user can't move on the next turn.
+#-------------------------------
+[TM69]
+Name = わざマシン69
+NamePlural = TM69s
+Pocket = 4
+Price = 1500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = ROCKPOLISH
+Description = The user polishes its body to reduce drag. This sharply raises the Speed stat.
+#-------------------------------
+[TM70]
+Name = わざマシン70
+NamePlural = TM70s
+Pocket = 4
+Price = 1000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = FLASH
+Description = The user flashes a light that lowers the target's accuracy. It can also be used to illuminate caves.
+#-------------------------------
+[TM71]
+Name = わざマシン71
+NamePlural = TM71s
+Pocket = 4
+Price = 3000
+BPPrice = 80
+FieldUse = TR
+Flags = Fling_100
+Move = STONEEDGE
+Description = The user stabs the target from below with sharpened stones. Critical hits land more easily.
+#-------------------------------
+[TM72]
+Name = わざマシン72
+NamePlural = TM72s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_60
+Move = AVALANCHE
+Description = The power of this attack move is doubled if the user has been hurt by the target in the same turn.
+#-------------------------------
+[TM73]
+Name = わざマシン73
+NamePlural = TM73s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = THUNDERWAVE
+Description = The user launches a weak jolt of electricity that paralyzes the target.
+#-------------------------------
+[TM74]
+Name = わざマシン74
+NamePlural = TM74s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = GYROBALL
+Description = The user tackles with a high-speed spin. This move is stronger the slower the user is than the target.
+#-------------------------------
+[TM75]
+Name = わざマシン75
+NamePlural = TM75s
+Pocket = 4
+Price = 1500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = SWORDSDANCE
+Description = A frenetic dance to uplift the fighting spirit. This sharply raises the user's Attack stat.
+#-------------------------------
+[TM76]
+Name = わざマシン76
+NamePlural = TM76s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = STEALTHROCK
+Description = The user lays a trap of levitating stones around the opposing team that hurt Pokémon that switch in.
+#-------------------------------
+[TM77]
+Name = わざマシン77
+NamePlural = TM77s
+Pocket = 4
+Price = 1500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = PSYCHUP
+Description = The user hypnotizes itself into copying any stat change made by the target.
+#-------------------------------
+[TM78]
+Name = わざマシン78
+NamePlural = TM78s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_55
+Move = SNARL
+Description = The user yells as if it's ranting about something, which lowers the Sp. Atk stats of opposing Pokémon.
+#-------------------------------
+[TM79]
+Name = わざマシン79
+NamePlural = TM79s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_80
+Move = DARKPULSE
+Description = The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.
+#-------------------------------
+[TM80]
+Name = わざマシン80
+NamePlural = TM80s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_75
+Move = ROCKSLIDE
+Description = Large boulders are hurled at opposing Pokémon to inflict damage. This may also make them flinch.
+#-------------------------------
+[TM81]
+Name = わざマシン81
+NamePlural = TM81s
+Pocket = 4
+Price = 3000
+BPPrice = 64
+FieldUse = TR
+Flags = Fling_80
+Move = XSCISSOR
+Description = The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.
+#-------------------------------
+[TM82]
+Name = わざマシン82
+NamePlural = TM82s
+Pocket = 4
+Price = 1000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = SLEEPTALK
+Description = While it is asleep, the user randomly uses one of the moves it knows.
+#-------------------------------
+[TM83]
+Name = わざマシン83
+NamePlural = TM83s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_60
+Move = BULLDOZE
+Description = The user strikes everything around it by stomping down on the ground. This lowers the Speed of those hit.
+#-------------------------------
+[TM84]
+Name = わざマシン84
+NamePlural = TM84s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_80
+Move = POISONJAB
+Description = The target is stabbed with a tentacle, arm, or the like steeped in poison. This may also poison them.
+#-------------------------------
+[TM85]
+Name = わざマシン85
+NamePlural = TM85s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_100
+Move = DREAMEATER
+Description = The user eats the dreams of a sleeping target. The user's HP is restored by half the damage dealt.
+#-------------------------------
+[TM86]
+Name = わざマシン86
+NamePlural = TM86s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = GRASSKNOT
+Description = The user snares the target with grass and trips it. The heavier the target, the strong the move is.
+#-------------------------------
+[TM87]
+Name = わざマシン87
+NamePlural = TM87s
+Pocket = 4
+Price = 1500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = SWAGGER
+Description = The user enrages and confuses the target. However, this also sharply raises the target's Attack stat.
+#-------------------------------
+[TM88]
+Name = わざマシン88
+NamePlural = TM88s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_60
+Move = PLUCK
+Description = The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect.
+#-------------------------------
+[TM89]
+Name = わざマシン89
+NamePlural = TM89s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_70
+Move = UTURN
+Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+#-------------------------------
+[TM90]
+Name = わざマシン90
+NamePlural = TM90s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = SUBSTITUTE
+Description = The user creates a substitute for itself using some of its HP. The substitute serves as a decoy.
+#-------------------------------
+[TM91]
+Name = わざマシン91
+NamePlural = TM91s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_80
+Move = FLASHCANNON
+Description = The user gathers all its light energy and releases it all at once. This may also lower the target's Sp. Def stat.
+#-------------------------------
+[TM92]
+Name = わざマシン92
+NamePlural = TM92s
+Pocket = 4
+Price = 5500
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = TRICKROOM
+Description = The user creates a bizarre area in which slower Pokémon get to move first for five turns.
+#-------------------------------
+[TM93]
+Name = わざマシン93
+NamePlural = TM93s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_50
+Move = CUT
+Description = The target is cut with a scythe or claw.
+#-------------------------------
+[TM94]
+Name = わざマシン94
+NamePlural = TM94s
+Pocket = 4
+Price = 2000
+BPPrice = 40
+FieldUse = TR
+Flags = Fling_90
+Move = FLY
+Description = The user flies up into the sky and then strikes its target on the next turn.
+#-------------------------------
+[TM95]
+Name = わざマシン95
+NamePlural = TM95s
+Pocket = 4
+Price = 2500
+BPPrice = 64
+FieldUse = TR
+Flags = Fling_90
+Move = SURF
+Description = The user attacks everything around it by swamping its surroundings with a giant wave.
+#-------------------------------
+[TM96]
+Name = わざマシン96
+NamePlural = TM96s
+Pocket = 4
+Price = 2000
+BPPrice = 40
+FieldUse = TR
+Flags = Fling_80
+Move = STRENGTH
+Description = The target is slugged with a punch thrown at maximum power.
+#-------------------------------
+[TM97]
+Name = わざマシン97
+NamePlural = TM97s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_10
+Move = DEFOG
+Description = A strong wind blows away the target's barriers, such as Reflect, and lowers their evasiveness.
+#-------------------------------
+[TM98]
+Name = わざマシン98
+NamePlural = TM98s
+Pocket = 4
+Price = 2000
+BPPrice = 40
+FieldUse = TR
+Flags = Fling_40
+Move = ROCKSMASH
+Description = The user attacks with a punch that may lower the target's Defense stat.
+#-------------------------------
+[TM99]
+Name = わざマシン99
+NamePlural = TM99s
+Pocket = 4
+Price = 2500
+BPPrice = 64
+FieldUse = TR
+Flags = Fling_80
+Move = WATERFALL
+Description = The user charges at the target and may make it flinch.
+#-------------------------------
+[TM100]
+Name = わざマシン100
+NamePlural = TM100s
+Pocket = 4
+Price = 2000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_90
+Move = ROCKCLIMB
+Description = A charging attack that may also leave the foe confused.
+#-------------------------------
+[HM01]
+Name = ひでんマシン01
+NamePlural = HM01s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = CUT
+Description = The target is cut with a scythe or claw. This can also be used to cut down thin trees.
+#-------------------------------
+[HM02]
+Name = ひでんマシン02
+NamePlural = HM02s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = FLY
+Description = The user soars and then strikes on the next turn. This can also be used to fly to any familiar town.
+#-------------------------------
+[HM03]
+Name = ひでんマシン03
+NamePlural = HM03s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = SURF
+Description = Attacks everything by swamping the surroundings with a giant wave. This can also be used to cross water.
+#-------------------------------
+[HM04]
+Name = ひでんマシン04
+NamePlural = HM04s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = STRENGTH
+Description = The target is slugged with a punch thrown at maximum power. This can also be used to move heavy boulders.
+#-------------------------------
+[HM05]
+Name = ひでんマシン05
+NamePlural = HM05s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = WATERFALL
+Description = The user charges at the target and may make it flinch. It can also be used to climb a waterfall.
+#-------------------------------
+[HM06]
+Name = ひでんマシン06
+NamePlural = HM06s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = DIVE
+Description = Diving on the first turn, the user floats up and attacks on the second. It can be used to dive underwater.
+#-------------------------------
+[CHERIBERRY]
+Name = クラボのみ
+NamePlural = クラボのみ
+Pocket = 5
+Price = 40
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_FIRE_80
+Description = ポケモンに つかったり もたせたりすると まひを かいふくする。
+#-------------------------------
+[CHESTOBERRY]
+Name = カゴのみ
+NamePlural = カゴのみ
+Pocket = 5
+Price = 40
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_WATER_80
+Description = ポケモンに つかったり もたせたりすると ねむりを かいふくする。
+#-------------------------------
+[PECHABERRY]
+Name = モモンのみ
+NamePlural = モモンのみ
+Pocket = 5
+Price = 40
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_ELECTRIC_80
+Description = ポケモンに つかったり もたせたりすると どくを かいふくする。
+#-------------------------------
+[RAWSTBERRY]
+Name = チーゴのみ
+NamePlural = チーゴのみ
+Pocket = 5
+Price = 40
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_GRASS_80
+Description = ポケモンに つかったり もたせたりすると やけどを かいふくする。
+#-------------------------------
+[ASPEARBERRY]
+Name = ナナシのみ
+NamePlural = ナナシのみ
+Pocket = 5
+Price = 40
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_ICE_80
+Description = ポケモンに つかったり もたせたりすると こおりを かいふくする。
+#-------------------------------
+[LEPPABERRY]
+Name = ヒメリのみ
+NamePlural = ヒメリのみ
+Pocket = 5
+Price = 40
+FieldUse = OnPokemon
+BattleUse = OnMove
+Flags = Berry,Fling_10,NaturalGift_FIGHTING_80
+Description = ポケモンに つかったり もたせたりすると PPを 10だけ かいふくする。
+#-------------------------------
+[ORANBERRY]
+Name = オレンのみ
+NamePlural = オレンのみ
+Pocket = 5
+Price = 40
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_POISON_80
+Description = ポケモンに つかったり もたせたりすると HPを 10だけ かいふくする。
+#-------------------------------
+[PERSIMBERRY]
+Name = キーのみ
+NamePlural = キーのみ
+Pocket = 5
+Price = 40
+BattleUse = OnBattler
+Flags = Berry,Fling_10,NaturalGift_GROUND_80
+Description = ポケモンに つかったり もたせたりすると こんらんを かいふくする。
+#-------------------------------
+[LUMBERRY]
+Name = ラムのみ
+NamePlural = ラムのみ
+Pocket = 5
+Price = 40
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_FLYING_80
+Description = ポケモンに つかったり もたせたりすると すべての じょうたい いじょうを かいふくする。
+#-------------------------------
+[SITRUSBERRY]
+Name = オボンのみ
+NamePlural = オボンのみ
+Pocket = 5
+Price = 40
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_PSYCHIC_80
+Description = ポケモンに つかったり もたせたりすると HPを すこしだけ かいふくする。
+#-------------------------------
+[FIGYBERRY]
+Name = フィラのみ
+NamePlural = フィラのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_BUG_80
+Description = ポケモンに もたせると ピンチのとき HPを かいふくする。 きらいな あじだと こんらん する。
+#-------------------------------
+[WIKIBERRY]
+Name = ウイのみ
+NamePlural = ウイのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_ROCK_80
+Description = ポケモンに もたせると ピンチのとき HPを かいふくする。 きらいな あじだと こんらん する。
+#-------------------------------
+[MAGOBERRY]
+Name = マゴのみ
+NamePlural = マゴのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_GHOST_80
+Description = ポケモンに もたせると ピンチのとき HPを かいふくする。 きらいな あじだと こんらん する。
+#-------------------------------
+[AGUAVBERRY]
+Name = バンジのみ
+NamePlural = バンジのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_DRAGON_80
+Description = ポケモンに もたせると ピンチのとき HPを かいふくする。 きらいな あじだと こんらん する。
+#-------------------------------
+[IAPAPABERRY]
+Name = イアのみ
+NamePlural = イアのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_DARK_80
+Description = ポケモンに もたせると ピンチのとき HPを かいふくする。 きらいな あじだと こんらん する。
+#-------------------------------
+[RAZZBERRY]
+Name = ズリのみ
+NamePlural = ズリのみ
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_STEEL_80
+Description = かっこよさに みがきを かける ための ポロックやポフィンを つくるとき つかわれる。
+#-------------------------------
+[BLUKBERRY]
+Name = ブリーのみ
+NamePlural = ブリーのみ
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_FIRE_90
+Description = うつくしさに みがきを かける ための ポロックやポフィンを つくるとき つかわれる。
+#-------------------------------
+[NANABBERRY]
+Name = ナナのみ
+NamePlural = ナナのみ
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_WATER_90
+Description = かわいさに みがきを かける ための ポロックやポフィンを つくるとき つかわれる。
+#-------------------------------
+[WEPEARBERRY]
+Name = セシナのみ
+NamePlural = セシナのみ
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_ELECTRIC_90
+Description = かしこさに みがきを かける ための ポロックやポフィンを つくるとき つかわれる。
+#-------------------------------
+[PINAPBERRY]
+Name = パイルのみ
+NamePlural = パイルのみ
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_GRASS_90
+Description = たくましさに みがきを かける ための ポロックやポフィンを つくるとき つかわれる。
+#-------------------------------
+[POMEGBERRY]
+Name = ザロクのみ
+NamePlural = ザロクのみ
+Pocket = 5
+Price = 40
+FieldUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_ICE_90
+Description = ポケモンに あげると とても なかよく なりやすくなるが HPの きそポイントは さがる。
+#-------------------------------
+[KELPSYBERRY]
+Name = ネコブのみ
+NamePlural = ネコブのみ
+Pocket = 5
+Price = 40
+FieldUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_FIGHTING_90
+Description = ポケモンに あげると とても なかよく なりやすくなるが こうげきの きそポイントは さがる。
+#-------------------------------
+[QUALOTBERRY]
+Name = タポルのみ
+NamePlural = タポルのみ
+Pocket = 5
+Price = 40
+FieldUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_POISON_90
+Description = ポケモンに あげると とても なかよく なりやすくなるが ぼうぎょの きそポイントは さがる。
+#-------------------------------
+[HONDEWBERRY]
+Name = ロメのみ
+NamePlural = ロメのみ
+Pocket = 5
+Price = 40
+FieldUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_GROUND_90
+Description = ポケモンに あげると とても なかよく なりやすくなるが とくこうの きそポイントは さがる。
+#-------------------------------
+[GREPABERRY]
+Name = ウブのみ
+NamePlural = ウブのみ
+Pocket = 5
+Price = 40
+FieldUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_FLYING_90
+Description = ポケモンに あげると とても なかよく なりやすくなるが とくぼうの きそポイントは さがる。
+#-------------------------------
+[TAMATOBERRY]
+Name = マトマのみ
+NamePlural = マトマのみ
+Pocket = 5
+Price = 20
+FieldUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_PSYCHIC_90
+Description = ポケモンに あげると とても なかよく なりやすくなるが すばやさの きそポイントは さがる。
+#-------------------------------
+[CORNNBERRY]
+Name = モコシのみ
+NamePlural = モコシのみ
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_BUG_90
+Description = うつくしさに みがきを かける ための ポロックを つくるとき つかわれる。
+#-------------------------------
+[MAGOSTBERRY]
+Name = ゴスのみ
+NamePlural = ゴスのみ
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_ROCK_90
+Description = かわいさに みがきを かける ための ポロックを つくるとき つかわれる。
+#-------------------------------
+[RABUTABERRY]
+Name = ラブタのみ
+NamePlural = ラブタのみ
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_GHOST_90
+Description = かしこさに みがきを かける ための ポロックを つくるとき つかわれる。
+#-------------------------------
+[NOMELBERRY]
+Name = ノメルのみ
+NamePlural = ノメルのみ
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_DRAGON_90
+Description = たくましさに みがきを かける ための ポロックを つくるとき つかわれる。
+#-------------------------------
+[SPELONBERRY]
+Name = ノワキのみ
+NamePlural = ノワキのみ
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_DARK_90
+Description = かわいさに みがきを かける ための ポロックを つくるとき つかわれる。
+#-------------------------------
+[PAMTREBERRY]
+Name = シーヤのみ
+NamePlural = シーヤのみ
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_STEEL_90
+Description = うつくしさに みがきを かける ための ポロックを つくるとき つかわれる。
+#-------------------------------
+[WATMELBERRY]
+Name = カイスのみ
+NamePlural = カイスのみ
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_FIRE_100
+Description = かしこさに みがきを かける ための ポロックを つくるとき つかわれる。
+#-------------------------------
+[DURINBERRY]
+Name = ドリのみ
+NamePlural = ドリのみ
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_WATER_100
+Description = かしこさに みがきを かける ための ポロックを つくるとき つかわれる。
+#-------------------------------
+[BELUEBERRY]
+Name = ベリブのみ
+NamePlural = ベリブのみ
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_ELECTRIC_100
+Description = うつくしさに みがきを かける ための ポロックを つくるとき つかわれる。
+#-------------------------------
+[OCCABERRY]
+Name = オッカのみ
+NamePlural = オッカのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_FIRE_80
+Description = ポケモンに もたせると こうかばつぐんの ほのお わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[PASSHOBERRY]
+Name = イトケのみ
+NamePlural = イトケのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_WATER_80
+Description = ポケモンに もたせると こうかばつぐんの みず わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[WACANBERRY]
+Name = ソクノのみ
+NamePlural = ソクノのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_ELECTRIC_80
+Description = ポケモンに もたせると こうかばつぐんの でんき わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[RINDOBERRY]
+Name = リンドのみ
+NamePlural = リンドのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_GRASS_80
+Description = ポケモンに もたせると こうかばつぐんの くさ わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[YACHEBERRY]
+Name = ヤチェのみ
+NamePlural = ヤチェのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_ICE_80
+Description = ポケモンに もたせると こうかばつぐんの こおり わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[CHOPLEBERRY]
+Name = ヨプのみ
+NamePlural = ヨプのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_FIGHTING_80
+Description = ポケモンに もたせると こうかばつぐんの かくとう わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[KEBIABERRY]
+Name = ビアーのみ
+NamePlural = ビアーのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_POISON_80
+Description = ポケモンに もたせると こうかばつぐんの どく わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[SHUCABERRY]
+Name = シュカのみ
+NamePlural = シュカのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_GROUND_80
+Description = ポケモンに もたせると こうかばつぐんの じめん わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[COBABERRY]
+Name = バコウのみ
+NamePlural = バコウのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_FLYING_80
+Description = ポケモンに もたせると こうかばつぐんの ひこう わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[PAYAPABERRY]
+Name = ウタンのみ
+NamePlural = ウタンのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_PSYCHIC_80
+Description = ポケモンに もたせると こうかばつぐんの エスパー わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[TANGABERRY]
+Name = タンガのみ
+NamePlural = タンガのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_BUG_80
+Description = ポケモンに もたせると こうかばつぐんの むし わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[CHARTIBERRY]
+Name = ヨロギのみ
+NamePlural = ヨロギのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_ROCK_80
+Description = ポケモンに もたせると こうかばつぐんの いわ わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[KASIBBERRY]
+Name = カシブのみ
+NamePlural = カシブのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_GHOST_80
+Description = ポケモンに もたせると こうかばつぐんの ゴースト わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[HABANBERRY]
+Name = ハバンのみ
+NamePlural = ハバンのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_DRAGON_80
+Description = ポケモンに もたせると こうかばつぐんの ドラゴン わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[COLBURBERRY]
+Name = ナモのみ
+NamePlural = ナモのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_DARK_80
+Description = ポケモンに もたせると こうかばつぐんの あく わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[BABIRIBERRY]
+Name = リリバのみ
+NamePlural = リリバのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_STEEL_80
+Description = ポケモンに もたせると こうかばつぐんの はがね わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[CHILANBERRY]
+Name = ホズのみ
+NamePlural = ホズのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_NORMAL_80
+Description = ポケモンに もたせると ノーマル わざを うけたとき いりょくが よわまる。
+#-------------------------------
+[LIECHIBERRY]
+Name = チイラのみ
+NamePlural = チイラのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_GRASS_100
+Description = ポケモンに もたせると ピンチのとき じぶんの こうげきが あがる。なぞのきのみ。
+#-------------------------------
+[GANLONBERRY]
+Name = リュガのみ
+NamePlural = リュガのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_ICE_100
+Description = ポケモンに もたせると ピンチのとき じぶんの ぼうぎょが あがる。なぞのきのみ。
+#-------------------------------
+[SALACBERRY]
+Name = カムラのみ
+NamePlural = カムラのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_FIGHTING_100
+Description = ポケモンに もたせると ピンチのとき じぶんの すばやさが あがる。
+#-------------------------------
+[PETAYABERRY]
+Name = ヤタピのみ
+NamePlural = ヤタピのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_POISON_100
+Description = ポケモンに もたせると ピンチのとき じぶんの とくこうが あがる。なぞのきのみ。
+#-------------------------------
+[APICOTBERRY]
+Name = ズアのみ
+NamePlural = ズアのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_GROUND_100
+Description = ポケモンに もたせると ピンチのとき じぶんの とくぼうが あがる。ふしぎな ふしぎな きのみ。 
+#-------------------------------
+[LANSATBERRY]
+Name = サンのみ
+NamePlural = サンのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_FLYING_100
+Description = ポケモンに もたせると ピンチのとき こうげきが きゅうしょに あたりやすくなる。
+#-------------------------------
+[STARFBERRY]
+Name = スターのみ
+NamePlural = スターのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_PSYCHIC_100
+Description = ポケモンに もたせると ピンチのとき どれか 1つの のうりょくが ぐーんと あがる。
+#-------------------------------
+[ENIGMABERRY]
+Name = ナゾのみ
+NamePlural = ナゾのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_BUG_100
+Description = ポケモンに もたせると こうかばつぐんの わざを うけたとき HPを かいふくする。 
+#-------------------------------
+[MICLEBERRY]
+Name = ミクルのみ
+NamePlural = ミクルのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_ROCK_100
+Description = ポケモンに もたせると ピンチのとき いちどだけ わざの めいちゅうりつが あがる。
+#-------------------------------
+[CUSTAPBERRY]
+Name = イバンのみ
+NamePlural = イバンのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_GHOST_100
+Description = ポケモンに もたせると ピンチのとき いちどだけ こうどうが はやくなる。
+#-------------------------------
+[JABOCABERRY]
+Name = レンブのみ
+NamePlural = レンブのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_DRAGON_100
+Description = ポケモンに もたせると とくしゅわざを うけたとき あいてにも ダメージを あたえる。
+#-------------------------------
+[ROWAPBERRY]
+Name = ジャポのみ
+NamePlural = ジャポのみ
+Pocket = 5
+Price = 40
+Flags = Berry,Fling_10,NaturalGift_DARK_100
+Description = ポケモンに もたせると ぶつりわざを うけたとき あいてにも ダメージを あたえる。
+#-------------------------------
+[GRASSMAIL]
+Name = グラスメール
+NamePlural = Grass Mail
+PortionName = piece of Grass Mail
+PortionNamePlural = pieces of Grass Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = さわやかな みどりの そうげんが プリントされた びんせん。ポケモンに もたせて つかう。
+#-------------------------------
+[FLAMEMAIL]
+Name = フレイムメール
+NamePlural = Flame Mail
+PortionName = piece of Flame Mail
+PortionNamePlural = pieces of Flame Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = まっかに もえあがる ほのおが プリントされた びんせん。ポケモンに もたせて つかう。
+#-------------------------------
+[BUBBLEMAIL]
+Name = ブルーメール
+NamePlural = Bubble Mail
+PortionName = piece of Bubble Mail
+PortionNamePlural = pieces of Bubble Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = あおい みずの せかいが プリントされた びんせん。ポケモンに もたせて つかう。
+#-------------------------------
+[BLOOMMAIL]
+Name = ブルームメール
+NamePlural = Bloom Mail
+PortionName = piece of Bloom Mail
+PortionNamePlural = pieces of Bloom Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = きれいな はながら もようが プリントされた びんせん。ポケモンに もたせて つかう。
+#-------------------------------
+[TUNNELMAIL]
+Name = トンネルメール
+NamePlural = Tunnel Mail
+PortionName = piece of Tunnel Mail
+PortionNamePlural = pieces of Tunnel Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = うすぐらい たんこうの せかいが プリントされた びんせん。ポケモンに もたせて つかう。
+#-------------------------------
+[STEELMAIL]
+Name = スチールメール
+NamePlural = Steel Mail
+PortionName = piece of Steel Mail
+PortionNamePlural = pieces of Steel Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = かっこいい きかいの もようが プリントされた びんせん。ポケモンに もたせて つかう。
+#-------------------------------
+[HEARTMAIL]
+Name = ラブラブメール
+NamePlural = Heart Mail
+PortionName = piece of Heart Mail
+PortionNamePlural = pieces of Heart Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = おおきな ハートの えがらが プリントされた びんせん。ポケモンに もたせて つかう。
+#-------------------------------
+[SNOWMAIL]
+Name = ブリザードメール
+NamePlural = Snow Mail
+PortionName = piece of Snow Mail
+PortionNamePlural = pieces of Snow Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = さむそうな ゆきの せかいが プリントされた びんせん。ポケモンに もたせて つかう。
+#-------------------------------
+[SPACEMAIL]
+Name = スペースメール
+NamePlural = Space Mail
+PortionName = piece of Space Mail
+PortionNamePlural = pieces of Space Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = ゆうだいな うちゅう くうかんが プリントされた びんせん。ポケモンに もたせて つかう。
+#-------------------------------
+[AIRMAIL]
+Name = エアメール
+NamePlural = Air Mail
+PortionName = piece of Air Mail
+PortionNamePlural = pieces of Air Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = カラフルな びんせんの えがらが プリントされた びんせん。ポケモンに もたせて つかう。
+#-------------------------------
+[MOSAICMAIL]
+Name = モザイクメール
+NamePlural = Mosaic Mail
+PortionName = piece of Mosaic Mail
+PortionNamePlural = pieces of Mosaic Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = あざやかな にじいろ もようが プリントされた びんせん。 ポケモンに もたせて つかう。
+#-------------------------------
+[BRICKMAIL]
+Name = ブリックメール
+NamePlural = Brick Mail
+PortionName = piece of Brick Mail
+PortionNamePlural = pieces of Brick Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = かたそうな レンガの えがらが プリントされた びんせん。 ポケモンに もたせて つかう。
+#-------------------------------
+[XATTACK]
+Name = プラスパワー
+NamePlural = プラスパワー
+Pocket = 7
+Price = 1000
+SellPrice = 250
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの こうげきを おおきく あげる どうぐ。ひっこめると もとに もどる。
+LauncherPoints = 3
+#-------------------------------
+[XATTACK2]
+Name = プラスパワー 2
+NamePlural = プラスパワー 2
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの こうげきを それなりに あげる どうぐ。ひっこめると もとに もどる。
+LauncherPoints = 5
+#-------------------------------
+[XATTACK3]
+Name = プラスパワー 3
+NamePlural = プラスパワー 3
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの こうげきを かなり あげる どうぐ。ひっこめると もとに もどる。
+LauncherPoints = 7
+#-------------------------------
+[XATTACK6]
+Name = プラスパワー 6
+NamePlural = プラスパワー 6
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの こうげきを ものすごく あげる どうぐ。ひっこめると もとに もどる。
+LauncherPoints = 12
+#-------------------------------
+[XDEFENSE]
+Name = ディフェンダー
+NamePlural = X Defenses
+Pocket = 7
+Price = 2000
+SellPrice = 250
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの ぼうぎょを おおきく あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 3
+#-------------------------------
+[XDEFENSE2]
+Name = ディフェンダー 2
+NamePlural = X Defense 2s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの ぼうぎょを それなりに あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 5
+#-------------------------------
+[XDEFENSE3]
+Name = ディフェンダー 3
+NamePlural = X Defense 3s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの ぼうぎょを かなり あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 7
+#-------------------------------
+[XDEFENSE6]
+Name = ディフェンダー 6
+NamePlural = X Defense 6s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの ぼうぎょを ものすごく あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 12
+#-------------------------------
+[XSPATK]
+Name = スペシャルアップ
+NamePlural = X Sp. Atks
+Pocket = 7
+Price = 1000
+SellPrice = 250
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの とくこうを おおきく あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 3
+#-------------------------------
+[XSPATK2]
+Name = スペシャルアップ 2
+NamePlural = X Sp. Atk 2s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの とくこうを それなりに あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 5
+#-------------------------------
+[XSPATK3]
+Name = スペシャルアップ 3
+NamePlural = X Sp. Atk 3s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの とくこうを かなり あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 7
+#-------------------------------
+[XSPATK6]
+Name = スペシャルアップ 6
+NamePlural = X Sp. Atk 6s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの とくこうを ものすごく あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 12
+#-------------------------------
+[XSPDEF]
+Name = スペシャルガード
+NamePlural = X Sp. Defs
+Pocket = 7
+Price = 2000
+SellPrice = 250
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの とくぼうを おおきく あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 3
+#-------------------------------
+[XSPDEF2]
+Name = スペシャルガード 2
+NamePlural = X Sp. Def 2s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの とくぼうを それなりに あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 5
+#-------------------------------
+[XSPDEF3]
+Name = スペシャルガード 3
+NamePlural = X Sp. Def 3s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの とくぼうを かなり あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 7
+#-------------------------------
+[XSPDEF6]
+Name = スペシャルガード 6
+NamePlural = X Sp. Def 6s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの とくぼうを ものすごく あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 12
+#-------------------------------
+[XSPEED]
+Name = スピーダー
+NamePlural = X Speeds
+Pocket = 7
+Price = 1000
+SellPrice = 250
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの すばやさを おおきく あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 3
+#-------------------------------
+[XSPEED2]
+Name = スピーダー 2
+NamePlural = X Speed 2s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの すばやさを それなりに あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 5
+#-------------------------------
+[XSPEED3]
+Name = スピーダー 3
+NamePlural = X Speed 3s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの すばやさを かなり あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 7
+#-------------------------------
+[XSPEED6]
+Name = スピーダー 6
+NamePlural = X Speed 6s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの すばやさを ものすごく あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 12
+#-------------------------------
+[XACCURACY]
+Name = ヨクアタール
+NamePlural = X Accuracies
+Pocket = 7
+Price = 1000
+SellPrice = 250
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの めいちゅうを ものすごく あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 3
+#-------------------------------
+[XACCURACY2]
+Name = ヨクアタール 2
+NamePlural = X Accuracy 2s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの めいちゅうを それなりに あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 5
+#-------------------------------
+[XACCURACY3]
+Name = ヨクアタール 3
+NamePlural = X Accuracy 3s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの めいちゅうを かなり あげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 7
+#-------------------------------
+[XACCURACY6]
+Name = ヨクアタール 6
+NamePlural = X Accuracy 6s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = せんとうちゅうの ポケモンの めいちゅうを ものすごくあげる どうぐ。 ひっこめると もとに もどる。
+LauncherPoints = 12
+#-------------------------------
+[DIREHIT]
+Name = クリティカット
+NamePlural = クリティカット
+Pocket = 7
+Price = 1000
+SellPrice = 250
+BattleUse = OnBattler
+Flags = Fling_30
+Description = きゅうしょりつが おおきく あがる。 いちどしか つかうことが できない。 ひっこめると もとに もどる。
+LauncherPoints = 3
+#-------------------------------
+[DIREHIT2]
+Name = クリティカット 2
+NamePlural = Dire Hit 2s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = きゅうしょりつが おおきく あがる。 つかうたびに こうかが アップする ひっこめると もとに もどる。
+LauncherPoints = 5
+#-------------------------------
+[DIREHIT3]
+Name = クリティカット 3
+NamePlural = Dire Hit 3s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = きゅうしょりつが おおきく あがる。 つかうたびに こうかが アップする ひっこめると もとに もどる。
+LauncherPoints = 7
+#-------------------------------
+[GUARDSPEC]
+Name = エフェクトガード
+NamePlural = Guard Specs.
+Pocket = 7
+Price = 1500
+SellPrice = 375
+BattleUse = Direct
+Flags = Fling_30
+Description = エフェクトガード
+LauncherPoints = 3
+#-------------------------------
+[RESETURGE]
+Name = フラットコール
+NamePlural = フラットコール
+Pocket = 7
+Price = 0
+Flags = Fling_30
+Description = つかうと みかたの ポケモンの のうりょくへんかが もとに もどる。
+LauncherPoints = 9
+LauncherUse = OnTarget
+#-------------------------------
+[ABILITYURGE]
+Name = スキルコール
+NamePlural = スキルコール
+Pocket = 7
+Price = 0
+Flags = Fling_30
+Description = つかうと みかたの ポケモンの とくせいを はつどうさせる。
+LauncherPoints = 3
+LauncherUse = OnTarget
+#-------------------------------
+[ITEMURGE]
+Name = アイテムコール
+NamePlural = アイテムコール
+Pocket = 7
+Price = 0
+Flags = Fling_30
+Description = つかうと みかたの ポケモンが もっている どうぐを すぐつかう。
+LauncherPoints = 2
+LauncherUse = OnTarget
+#-------------------------------
+[ITEMDROP]
+Name = アイテムドロップ
+NamePlural = アイテムドロップ
+Pocket = 7
+Price = 0
+Flags = Fling_30
+Description = つかうと　みかたの　ポケモンが　もっている　どうぐを　なくす。
+LauncherPoints = 6
+LauncherUse = OnTarget
+#-------------------------------
+[BLUEFLUTE]
+Name = あおいビードロ
+NamePlural = あおいビードロ
+Pocket = 7
+Price = 20
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Consumable = false
+Description = あおいガラスで できた ふえ。ねむり じょうたいを かいふくする。マニアが たかく かってくれる。
+#-------------------------------
+[YELLOWFLUTE]
+Name = きいろビードロ
+NamePlural = きいろビードロ
+Pocket = 7
+Price = 20
+BattleUse = OnBattler
+Flags = Fling_30
+Consumable = false
+Description = きいろのガラスで できた ふえ。 こんらんじょうたいをかいふくする。マニアが たかく かってくれる。
+#-------------------------------
+[REDFLUTE]
+Name = あかいビードロ
+NamePlural = あかいビードロ
+Pocket = 7
+Price = 20
+BattleUse = OnBattler
+Flags = Fling_30
+Consumable = false
+Description = あかいガラスで できた ふえ。 メロメロじょうたいを かいふくする。マニアが たかく かってくれる。
+#-------------------------------
+[POKEDOLL]
+Name = ピッピにんぎょう
+NamePlural = ピッピにんぎょう
+Pocket = 7
+Price = 300
+SellPrice = 75
+BattleUse = Direct
+Flags = Fling_30
+Description = ポケモンの きを ひかせる どうぐ。 やせいポケモンとの せんとうから ぜったいに にげられる。
+#-------------------------------
+[FLUFFYTAIL]
+Name = エネコのシッポ
+NamePlural = エネコのシッポ
+Pocket = 7
+Price = 300
+SellPrice = 75
+BattleUse = Direct
+Flags = Fling_30
+Description = ポケモンの きを ひかせる どうぐ。 やせいポケモンとの せんとうから ぜったいに にげられる。
+#-------------------------------
+[POKETOY]
+Name = ポケじゃらし
+NamePlural = ポケじゃらし
+Pocket = 7
+Price = 300
+SellPrice = 75
+BattleUse = Direct
+Flags = Fling_30
+Description = ポケモンの きを ひかせる どうぐ。 やせいポケモンとの せんとうから ぜったいに にげられる。
+#-------------------------------
+[BICYCLE]
+Name = じてんしゃ
+NamePlural = じてんしゃ
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = ランニングシューズ よりも はやく はしることが できる おりたたみしきの じてんしゃ。
+#-------------------------------
+[OLDROD]
+Name = ボロのつりざお
+NamePlural = ボロのつりざお
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = ふるくて ボロい つりざお。 みずの ある ばしょで つかうと ポケモンが つれる。
+#-------------------------------
+[GOODROD]
+Name = いいつりざお
+NamePlural = いいつりざお
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = あたらしくて いい つりざお。 みずの ある ばしょで つかうと ポケモンが つれる。
+#-------------------------------
+[SUPERROD]
+Name = すごいつりざお
+NamePlural = すごいつりざお
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = さいしんの すごい つりざお。 みずの ある ばしょで つかうと ポケモンが つれる。
+#-------------------------------
+[ITEMFINDER]
+Name = ダウジングマシン
+NamePlural = ダウジングマシン
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = みえない どうぐに はんのうして おとと ひかりで おしえてくれる さいしんの きかい。
+#-------------------------------
+[DOWSINGMACHINE]
+Name = ダウジングマシン
+NamePlural = ダウジングマシン
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = みえない どうぐに はんのうして おとと ひかりで おしえてくれる さいしんの きかい。
+#-------------------------------
+[POKERADAR]
+Name = ポケトレ
+NamePlural = ポケトレ
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = くさむらに かくれている ポケモンを さがしだせる どうぐ。あるくと でんちが たまる。
+#-------------------------------
+[TOWNMAP]
+Name = タウンマップ
+NamePlural = タウンマップ
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = いつでも てがるに みることが できる べんりな ちず。 じぶんの ばしょも わかる。
+#-------------------------------
+[ESCAPEROPE]
+Name = あなぬけのヒモ
+NamePlural = あなぬけのヒモ
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = ながくて じょうぶな ヒモ。 どうくつや ダンジョンから ぬけだすことが できる。 なんどでも つかえる。
+#-------------------------------
+[COINCASE]
+Name = コインケース
+NamePlural = コインケース
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = ゲームコーナーで てにいれた コインを 50000まい まで いれることが できる ケース。
+#-------------------------------
+[POKEFLUTE]
+Name = ポケモンのふえ
+NamePlural = ポケモンのふえ
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+BattleUse = Direct
+Flags = KeyItem
+Description = ふけば どんな ポケモンでも とびおきると いう ふえ。 きれいな ねいろを かなでる
+#-------------------------------
+[SOOTSACK]
+Name = はいぶくろ
+NamePlural = はいぶくろ
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = かざんばいを いれる ふくろ。はいの うえを たくさん あるくほど おおく たまる。
+#-------------------------------
+[SILPHSCOPE]
+Name = シルフスコープ
+NamePlural = シルフスコープ
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = ひとの めに みえない ものを みることが できる スコープ。 シルフカンパニーせい。
+#-------------------------------
+[DEVONSCOPE]
+Name = デボンスコープ
+NamePlural = デボンスコープ
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = みえない ポケモンに はんのうして おとをだす デボンの とくせいひん。
+#-------------------------------
+[SQUIRTBOTTLE]
+Name = ゼニガメじょうろ
+NamePlural = ゼニガメじょうろ
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = ゼニガメの かたちをした じょうろ。きのみプランターの きのみを すくすく そだてる。
+#-------------------------------
+[SPRAYDUCK]
+Name = コダックじょうろ
+NamePlural = コダックじょうろ
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = みずを かける どうぐ。 ふかふかのつちに うめた きのみを すくすく そだてる。
+#-------------------------------
+[WAILMERPAIL]
+Name = ホエルコじょうろ
+NamePlural = ホエルコじょうろ
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = みずを かける どうぐ。つちに うめた きのみを すくすく そだてる。
+#-------------------------------
+[GRACIDEA]
+Name = グラシデアのはな
+NamePlural = グラシデアのはな
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = たんじょうびや きねんび などに かんしゃの きもちを つたえるため ブーケにして おくることが ある。
+#-------------------------------
+[REVEALGLASS]
+Name = うつしかがみ
+NamePlural = うつしかがみ
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = しんじつを うつしだすことで ポケモンを ほんらいの すがたに かえてしまう ふしぎな かがみ。
+#-------------------------------
+[DNASPLICERS]
+Name = いでんしのくさび
+NamePlural = いでんしのくさび
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = もとは ひとつだったと いわれる キュレムと あるポケモンを がったいさせる いっついの くさび。
+#-------------------------------
+[DNASPLICERSUSED]
+Name = いでんしのくさび
+NamePlural = いでんしのくさび
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = がったいした キュレムと あるポケモンを もとどおりに ぶんりさせる いっついの くさび。
+#-------------------------------
+[OVALCHARM]
+Name = まるいおまもり
+NamePlural = まるいおまもり
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = もっていると あずかりやさんで タマゴが みつかりやすくなる ふしぎで とてもまるい おまもり。
+#-------------------------------
+[SHINYCHARM]
+Name = ひかるおまもり
+NamePlural = ひかるおまもり
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = もっていると ひかる ポケモンと であいやすくなる といわれる ふしぎで ひかりかがやく おまもり。
+#-------------------------------
+[AURORATICKET]
+Name = オーロラチケット
+NamePlural = オーロラチケット
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = たんじょうのしまへ いくときに ひつような ふねの チケット。うつくしく かがやいている。
+#-------------------------------
+[OLDSEAMAP]
+Name = ふるびたかいず
+NamePlural = ふるびたかいず
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = ある しまへの かいろを しるして ある ふるぼけた うみの ちず。
